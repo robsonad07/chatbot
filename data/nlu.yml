@@ -1,0 +1,1365 @@
+version: "3.1"
+nlu:
+  - intent: saudacao
+    examples: |
+      - Olá
+      - Oi
+      - Bom dia
+      - Boa tarde
+      - Boa noite
+      - E aí?
+      - Oi, tudo bem?
+      - Como vai?
+      - Olá, como você está?
+      - Oi, tudo certo?
+      - Opa
+      - Ei
+      - Fala aí
+      - Salve
+      - Olá, tudo bem?
+      - Oi, beleza?
+      - Oi, como tá?
+      - Eae
+      - Oi, tudo tranquilo?
+      - Fala
+      - E aí, beleza?
+      - Oi, sussa?
+      - Olá, tudo ok?
+      - Oi, como vai vc?
+      - Tudo certo, e vc?
+      - Eai, tranquilo?
+      - Bom dia, td bem?
+      - Boa tarde, tudo certin?
+      - Oi, tudo bemzão?
+      - Opa, beleza?
+      - Oi, como vcs tão?
+      - Fala mano
+      - E aí, como anda a vida?
+      - Oi, tudo de boa?
+      - Fala galera
+      - E aí, como vc tá?
+      - Oi, e aí, tranquilo?
+      - Como c tá?
+      - E aí, tudo certo?
+
+  - intent: agradecimento
+    examples: |
+      - Obrigado
+      - Obrigada
+      - Muito obrigado
+      - Muito obrigada
+      - Valeu
+      - Agradeço
+      - Obrigado mesmo
+      - Obrigada mesmo
+      - Obrigado por tudo
+      - Agradeço de coração
+      - Valeu mesmo
+      - Muito grato
+      - Gratidão
+      - Sou muito grato
+      - Te agradeço
+      - vlw
+      - obg
+      - Brigadão
+      - Muito obg
+      - Agradecim
+      - Obg msm
+      - Vlw msm
+      - Obg, de coração
+      - Tô mto grato
+      - Brigado
+      - Agradeço mt
+      - Muito brigado
+      - Obrigadão
+      - Obrigadinho
+      - Vlw, brigado
+      - Sou mto grato
+      - Grato demaissss
+      - Te agradeço muito
+      - Brigadão mesmo
+      - Muito obrigado msm
+      - Agradeço demais
+      - Valeu, de coração
+      - Muitíssimo obrigado
+      - Obg de verdade
+      - Tô muito agradecido
+
+  - intent: finalizacao_conversa
+    examples: |
+      - Era isso
+      - Só isso
+      - Obrigado pela ajuda
+      - Obrigada pela ajuda
+      - Foi tudo que eu precisava
+      - Era só isso
+      - Valeu por responder
+      - Isso resolve
+      - Resolvido
+      - Tá bom, obrigado
+      - Tá bom, obrigada
+      - Por enquanto é isso
+      - Vou encerrar por aqui
+      - Terminamos
+      - Acho que é só
+      - Já era
+      - É isso mesmo
+      - Foi só isso
+      - De boa, é só isso
+      - Tá tranquilo, valeu
+      - Ok, obrigado
+      - Ok, obrigada
+      - Fechou, valeu
+      - Era isso msm
+      - Por agora é só
+      - Já resolvi, brigado
+      - Tá beleza, valeu
+      - Deu certo, obrigado
+      - Já era, brigado
+      - Por hoje é isso
+      - Por hora é isso
+      - Isso é tudo por enquanto
+      - Vou sair agora, valeu
+      - Vlw, era isso
+      - Fechou, brigado
+      - Tudo certo, valeu
+      - Resolvido por agora
+      - Acho que era só
+      - Tchau
+      - Acho que já tá bom
+
+  - intent: doenca_angina
+    examples: |
+      - O que é angina e como posso identificá-la?
+      - O que caracteriza a angina e como posso reconhecê-la?
+      - Como identificar os sintomas de angina?
+      - O que é angina e quais sinais ajudam a identificá-la?
+      - Como saber se estou tendo um episódio de angina?
+      - Quais são os sinais e sintomas que indicam angina?
+      - Como posso identificar uma crise de angina?
+      - O que devo observar para saber se estou com angina?
+      - Quais os principais sintomas da angina e como reconhecê-los?
+      - Como a angina se manifesta e como posso identificá-la?
+      - O que é a angina e como ela pode ser diagnosticada?
+      - Como sei se estou com angina?
+      - O que sinto quando estou tendo angina?
+      - Quais sinais posso observar para perceber angina?
+      - Como saber se é angina ou outro problema?
+      - O que caracteriza a dor de angina?
+      - Como posso saber se estou tendo uma crise de angina?
+      - O que é angina e como ela pode se manifestar?
+      - Quais são os sintomas que indicam que estou com angina?
+      - Como reconheço uma dor de angina?
+      - A dor de angina é diferente de outros tipos de dor? Como posso perceber?
+      - O que é angina e quais os sinais típicos dela?
+      - Como posso identificar uma dor de angina?
+      - O que é a angina e quais sintomas aparecem com ela?
+      - Quais são as características da angina?
+      - Como a angina se manifesta no corpo?
+      - O que posso fazer para saber se estou tendo angina?
+      - O que indica que é angina e não outra dor no peito?
+      - Como identificar os sintomas mais comuns da angina?
+      - Como posso perceber que é angina e não outra dor?
+      - Como posso saber se estou tendo uma crise de angina ou infarto?
+      - Quais são as diferenças entre angina e outros tipos de dor no peito?
+      - Como identificar angina nos primeiros sintomas?
+      - O que posso sentir quando estou com angina?
+      - Quais são as sensações que indicam que estou com angina?
+      - A angina tem algum sintoma específico que a distingue de outras doenças?
+      - Como reconhecer se é uma dor de angina ou outra dor torácica?
+      - Como identificar angina em mulheres? Os sintomas são diferentes?
+
+  - intent: doenca_cardiomiopatia
+    examples: |
+      - O que é a cardiomiopatia e quais são os seus sintomas?
+      - O que caracteriza a cardiomiopatia e quais são seus sintomas?
+      - Como a cardiomiopatia afeta o coração e quais são seus sinais?
+      - Quais os sintomas típicos da cardiomiopatia?
+      - O que é a cardiomiopatia e como posso identificar seus sintomas?
+      - Quais sinais e sintomas indicam cardiomiopatia?
+      - O que devo saber sobre a cardiomiopatia e seus principais sintomas?
+      - Como reconhecer os sintomas da cardiomiopatia?
+      - Quais os sintomas mais comuns de quem tem cardiomiopatia?
+      - O que a cardiomiopatia pode causar e como se manifesta?
+      - Como identificar os sinais de cardiomiopatia no corpo?
+      - O que é cardiomiopatia e como posso saber se estou com ela?
+      - Quais são os sinais de que posso ter cardiomiopatia?
+      - Como saber se a dor no peito é por cardiomiopatia?
+      - O que eu devo sentir para saber que é cardiomiopatia?
+      - Como a cardiomiopatia se manifesta no corpo?
+      - Quais os sintomas da cardiomiopatia no início?
+      - O que é cardiomiopatia e como ela afeta o coração?
+      - Como reconhecer os sinais iniciais de cardiomiopatia?
+      - Quais sinais devem me alertar para a possibilidade de cardiomiopatia?
+      - A cardiomiopatia tem sintomas que podem ser confundidos com outras doenças?
+      - Como saber se estou com cardiomiopatia ou outro problema no coração?
+      - Quais são as características da cardiomiopatia?
+      - Como identificar os sintomas da cardiomiopatia sem precisar de exames?
+      - O que devo observar no meu corpo para saber se estou com cardiomiopatia?
+      - A cardiomiopatia é fácil de diagnosticar?
+      - Como a cardiomiopatia afeta a circulação sanguínea?
+      - Quais são os primeiros sinais de que pode ser cardiomiopatia?
+      - Como a cardiomiopatia pode ser identificada antes de uma crise?
+      - Quais os principais sintomas da cardiomiopatia no começo?
+      - A cardiomiopatia pode causar falta de ar?
+      - Como posso perceber que estou com cardiomiopatia sem fazer exames?
+      - Quais sintomas de cardiomiopatia são mais comuns em mulheres?
+      - O que causa a cardiomiopatia e quais sintomas são mais frequentes?
+      - A cardiomiopatia pode causar dor no peito?
+      - Como a cardiomiopatia afeta o funcionamento do coração?
+      - Quais sintomas indicam que uma pessoa tem cardiomiopatia?
+      - Quais são as diferenças entre cardiomiopatia e outras doenças cardíacas?
+      - Como a cardiomiopatia interfere no meu batimento cardíaco?
+      - O que devo fazer se sentir sintomas de cardiomiopatia?
+
+  - intent: doenca_hipertensao
+    examples: |
+      - Como a hipertensão afeta a saúde do coração?
+      - De que forma a hipertensão pode prejudicar a saúde do coração?
+      - Quais os impactos da hipertensão sobre o coração?
+      - Como a pressão alta afeta o funcionamento do coração?
+      - O que acontece com o coração quando a pessoa tem hipertensão?
+      - Quais são as consequências da hipertensão para o sistema cardiovascular?
+      - Como a hipertensão pode contribuir para o desenvolvimento de doenças cardíacas?
+      - O que a pressão alta faz ao coração a longo prazo?
+      - Como a hipertensão afeta as artérias e o coração?
+      - Quais os riscos cardíacos associados à hipertensão?
+      - De que maneira a pressão alta compromete a saúde do coração?
+      - Como a hipertensão pode causar danos ao coração?
+      - O que a hipertensão pode causar ao sistema circulatório e ao coração?
+      - Como a pressão arterial elevada afeta a função cardíaca?
+      - Quais os efeitos da hipertensão no coração e nas artérias?
+      - Como a hipertensão pode aumentar o risco de problemas cardíacos?
+      - O que a pressão alta faz no coração?
+      - Quais são os danos da pressão alta ao sistema circulatório?
+      - A hipertensão pode causar infarto?
+      - Como a pressão alta prejudica o coração?
+      - A hipertensão acelera o envelhecimento do coração?
+      - O que acontece com as artérias quando a pressão é alta?
+      - Quais os efeitos a longo prazo da hipertensão no coração?
+      - Como a pressão alta pode piorar doenças cardíacas existentes?
+      - O que a hipertensão pode fazer ao coração e à circulação?
+      - A hipertensão é uma das causas de insuficiência cardíaca?
+      - Como a pressão alta afeta o fluxo sanguíneo no coração?
+      - Quais são os riscos de ter hipertensão sem tratamento para o coração?
+      - O que a hipertensão causa no meu coração se não for tratada?
+      - Quais problemas cardíacos surgem por conta da hipertensão?
+      - Como a hipertensão eleva o risco de AVC e problemas cardíacos?
+      - Como a hipertensão pode afetar a elasticidade das artérias?
+      - A pressão alta pode levar a um ataque cardíaco?
+      - Quais os sintomas no coração causados pela hipertensão?
+      - Como saber se a hipertensão está prejudicando meu coração?
+      - A hipertensão afeta a função do coração diretamente?
+      - Como a pressão alta contribui para o endurecimento das artérias?
+      - O que a hipertensão faz nas paredes do coração?
+      - A pressão alta pode causar aumento do coração?
+      - O que acontece com as artérias quando a pressão é alta por muito tempo?
+      - A hipertensão pode causar falta de ar e problemas cardíacos?
+      - Como a hipertensão pode levar a uma insuficiência cardíaca?
+      - A hipertensão pode ser silenciosa, mas ainda assim afetar o coração?
+      - Quais são os riscos de ter hipertensão na velhice para o coração?
+
+  - intent: danos_doencas_cardiacas
+    examples: |
+      - Quais são as complicações a longo prazo de doenças cardíacas mal tratadas?
+      - Quais podem ser as consequências a longo prazo de doenças cardíacas não tratadas adequadamente?
+      - Quais complicações podem surgir se doenças cardíacas não forem tratadas corretamente?
+      - O que pode acontecer a longo prazo quando doenças cardíacas não recebem o tratamento adequado?
+      - Quais riscos estão associados ao mau tratamento de doenças cardíacas a longo prazo?
+      - Quais as possíveis complicações a longo prazo de doenças cardíacas mal controladas?
+      - Como a falta de tratamento para doenças cardíacas pode afetar a saúde no futuro?
+      - Quais os danos permanentes que podem ocorrer se doenças cardíacas não forem bem tratadas?
+      - O que pode ocorrer a longo prazo quando uma doença cardíaca não é tratada adequadamente?
+      - Quais são as consequências de ignorar o tratamento de doenças cardíacas a longo prazo?
+      - Quais complicações graves podem surgir de doenças cardíacas mal tratadas ao longo do tempo?
+      - O que acontece se as doenças cardíacas não forem tratadas como deveriam?
+      - Como a falta de controle nas doenças cardíacas pode afetar o coração no futuro?
+      - Se uma doença cardíaca não for tratada corretamente, o que pode acontecer?
+      - O que pode acontecer se não der atenção às doenças cardíacas a longo prazo?
+      - Como o tratamento inadequado de doenças cardíacas pode prejudicar o coração a longo prazo?
+      - Quais são as consequências de não tratar doenças cardíacas de forma correta?
+      - Como a falta de tratamento para doenças cardíacas pode afetar a saúde do coração?
+      - O que pode surgir se as doenças cardíacas forem mal tratadas por muito tempo?
+      - Quais os riscos de não tratar doenças cardíacas adequadamente?
+      - Como doenças cardíacas não tratadas podem afetar a qualidade de vida?
+      - Quais complicações podem ocorrer se doenças cardíacas não forem tratadas a tempo?
+      - O que ocorre com o coração se doenças cardíacas forem mal tratadas?
+      - Quais são as consequências de deixar de tratar doenças cardíacas adequadas?
+      - O que a falta de tratamento das doenças cardíacas pode causar no longo prazo?
+      - Como doenças cardíacas mal tratadas podem afetar o funcionamento do coração?
+      - O que acontece com as artérias se doenças cardíacas não forem tratadas?
+      - Como a falta de cuidado com doenças cardíacas pode afetar o organismo todo?
+      - Quais as complicações que podem surgir se a doença cardíaca for negligenciada?
+      - Quais as consequências de não tratar doenças cardíacas logo no começo?
+      - Se uma pessoa não tratar doenças cardíacas, o que pode acontecer ao longo do tempo?
+      - Quais danos permanentes podem ocorrer no coração sem o tratamento adequado?
+      - Como doenças cardíacas mal tratadas afetam o sistema circulatório?
+      - O que ocorre no organismo se doenças cardíacas não forem tratadas a tempo?
+      - Como a falta de controle nas doenças cardíacas pode causar problemas graves?
+      - Quais os efeitos a longo prazo de doenças cardíacas mal tratadas?
+      - Como doenças cardíacas podem afetar a vida de uma pessoa a longo prazo se não tratadas?
+      - O que acontece quando a pessoa negligencia o tratamento de doenças cardíacas?
+
+  - intent: efeitos_doencas_cardiacas
+    examples: |
+      - Como as doenças cardíacas podem afetar outras partes do corpo?
+      - De que maneira as doenças cardíacas podem impactar outras áreas do corpo?
+      - Como as doenças cardíacas afetam o restante do corpo?
+      - Quais partes do corpo podem ser prejudicadas por doenças cardíacas?
+      - Como as doenças do coração podem prejudicar outros órgãos?
+      - Quais complicações extracardíacas podem surgir devido a doenças cardíacas?
+      - Como problemas cardíacos podem afetar a saúde de outras partes do corpo?
+      - Quais as consequências das doenças cardíacas em outras funções do corpo?
+      - Como as doenças do coração podem causar danos a outros sistemas do corpo?
+      - Quais órgãos do corpo podem ser afetados por doenças cardíacas?
+      - Como as condições cardíacas podem influenciar a saúde de outras partes do organismo?
+      - Como as doenças do coração afetam os rins?
+      - Como problemas no coração podem prejudicar o cérebro?
+      - Quais são os impactos das doenças cardíacas nos pulmões?
+      - Como doenças cardíacas podem afetar a circulação nas pernas?
+      - Quais problemas podem surgir nos olhos devido a doenças cardíacas?
+      - Como as doenças cardíacas afetam o sistema digestivo?
+      - Quais efeitos das doenças do coração sobre o fígado?
+      - Como doenças cardíacas podem piorar o funcionamento dos rins?
+      - Como doenças cardíacas podem afetar o sistema nervoso?
+      - O que pode acontecer com o sistema imunológico devido a doenças cardíacas?
+      - Como doenças cardíacas afetam os músculos e articulações?
+      - Quais efeitos das doenças do coração nos pulmões?
+      - Como a falta de oxigênio devido a doenças cardíacas pode afetar o corpo?
+      - Como problemas cardíacos podem afetar a circulação sanguínea nas mãos e pés?
+      - Quais são os efeitos das doenças cardíacas nos vasos sanguíneos?
+      - Como doenças do coração podem gerar problemas nos olhos?
+      - Quais complicações relacionadas aos dentes e gengivas podem surgir por conta de doenças cardíacas?
+      - Como o estresse causado por doenças cardíacas pode afetar o sistema imunológico?
+      - O que acontece com a pele de quem sofre com doenças cardíacas?
+      - Como as doenças cardíacas afetam a memória e concentração?
+      - Como as doenças do coração afetam o bem-estar geral do corpo?
+      - O que pode acontecer com o metabolismo em pessoas com doenças cardíacas?
+      - Como doenças cardíacas podem interferir na função renal?
+      - Como o mau funcionamento do coração pode prejudicar a digestão?
+      - De que forma doenças cardíacas podem afetar a saúde mental?
+      - Quais os efeitos das doenças cardíacas nas pernas e circulação periférica?
+      - Como o coração fraco pode afetar o resto do corpo?
+      - Quais as consequências das doenças cardíacas no sistema respiratório?
+      - Como o estresse gerado pelas doenças cardíacas pode afetar o corpo?
+      - Quais complicações respiratórias podem surgir devido a problemas cardíacos?
+      - Como a insuficiência cardíaca pode afetar outros órgãos?
+      - Quais doenças podem ser causadas nos rins devido a problemas no coração?
+
+  - intent: exames_sangue
+    examples: |
+      - Quais exames de sangue são importantes para avaliar a saúde do coração?
+      - Quais exames de sangue ajudam a avaliar a saúde do coração?
+      - Quais testes de sangue são essenciais para monitorar a saúde cardíaca?
+      - Quais exames laboratoriais são recomendados para avaliar o funcionamento do coração?
+      - Quais análises de sangue podem indicar problemas cardíacos?
+      - Quais exames de sangue são úteis para diagnosticar doenças cardíacas?
+      - Quais são os exames de sangue mais importantes para verificar a saúde do coração?
+      - Quais testes de sangue podem ser feitos para analisar a saúde do coração?
+      - Como os exames de sangue podem ajudar a identificar problemas no coração?
+      - Quais análises de sangue são necessárias para monitorar o risco cardiovascular?
+      - Quais exames de sangue indicam problemas no coração?
+      - Como o exame de sangue pode detectar doenças do coração?
+      - Quais exames de sangue são utilizados para diagnosticar infarto?
+      - Quais exames laboratoriais ajudam a identificar colesterol alto?
+      - Como a análise de sangue pode ajudar a detectar insuficiência cardíaca?
+      - Quais exames são feitos de sangue para saber se o coração está saudável?
+      - Quais exames de sangue ajudam a identificar infecções no coração?
+      - Quais exames de sangue fazem parte do check-up cardíaco?
+      - Quais exames de sangue são indicados para quem tem histórico de doenças cardíacas?
+      - Como os exames de sangue ajudam no diagnóstico de hipertensão?
+      - Quais testes de sangue são feitos para avaliar o risco de infarto?
+      - Quais são os exames de sangue indicados para quem tem pressão alta?
+      - Como exames de sangue podem indicar colesterol ruim no sangue?
+      - Quais são os exames de sangue que mostram o risco de doenças cardíacas?
+      - Quais exames laboratoriais indicam problemas nas artérias?
+      - Como os exames de sangue podem ajudar a detectar arritmia cardíaca?
+      - Quais testes de sangue são indicados para quem sofre com angina?
+      - Quais exames de sangue ajudam a monitorar o colesterol e o triglicerídeo?
+      - Como os exames de sangue ajudam a identificar o risco de AVC?
+      - Quais análises de sangue são importantes para detectar dislipidemia?
+      - Quais exames de sangue ajudam a avaliar os níveis de glicose no sangue e o risco de diabetes?
+      - Como os exames de sangue podem ajudar no diagnóstico de hipertensão pulmonar?
+      - Quais são os exames mais importantes de sangue para a saúde do coração?
+      - Quais exames de sangue são usados para medir a função renal no contexto de doenças cardíacas?
+      - Quais testes de sangue ajudam a verificar o risco de formação de coágulos?
+      - Como os exames de sangue ajudam a avaliar a função hepática em pacientes com problemas cardíacos?
+      - Quais exames de sangue são necessários para detectar síndrome metabólica?
+      - Quais exames de sangue ajudam a determinar a presença de inflamação no corpo que pode afetar o coração?
+      - Quais exames de sangue são feitos para verificar o risco de aterosclerose?
+      - Como os exames de sangue podem indicar a necessidade de intervenção no coração?
+      - Quais testes de sangue podem indicar problemas com as válvulas cardíacas?
+      
+  - intent: segunda_opiniao_medica
+    examples: |
+      - O aplicativo oferece recursos para obter uma segunda opinião médica?
+      - Como posso obter uma segunda opinião médica por meio do aplicativo?
+      - É possível fazer uma consulta para uma segunda opinião médica via aplicativo?
+      - Posso acessar uma segunda opinião médica a partir do aplicativo?
+      - O aplicativo permite que eu consulte outro médico para validar meu diagnóstico?
+      - Há como obter uma segunda opinião médica no aplicativo?
+      - O aplicativo oferece a funcionalidade de obter uma segunda opinião de um médico?
+      - Posso usar o aplicativo para procurar uma segunda opinião sobre meu tratamento médico?
+      - É possível obter uma segunda opinião médica através do aplicativo?
+      - Posso obter uma segunda opinião médica usando o aplicativo?
+      - O aplicativo permite que eu busque uma segunda opinião de outro médico?
+      - É possível consultar outro médico para uma segunda opinião através do aplicativo?
+      - O aplicativo oferece a opção de obter uma segunda opinião médica?
+      - Posso pedir uma segunda opinião para um médico diferente pelo aplicativo?
+      - O aplicativo possibilita obter uma segunda opinião sobre o diagnóstico médico?
+      - Como faço para pedir uma segunda opinião médica no app?
+      - O app permite que eu fale com outro médico para uma segunda opinião?
+      - Dá pra pedir uma segunda opinião no aplicativo?
+      - Posso conversar com outro médico no aplicativo e pedir uma segunda opinião?
+      - No app tem como pedir uma segunda opinião sobre o diagnóstico?
+      - Como eu faço pra ter uma segunda opinião médica no app?
+      - O aplicativo oferece a possibilidade de consultar outro médico?
+      - Posso consultar outro médico através do app pra segunda opinião?
+      - Consigo pedir uma segunda opinião médica pelo app?
+      - O aplicativo permite agendar uma consulta para segunda opinião?
+      - Eu consigo obter uma segunda opinião médica no app, é isso?
+      - O app tem como procurar outro médico pra segunda opinião?
+      - É fácil pedir uma segunda opinião no aplicativo?
+      - Como funciona a segunda opinião médica no aplicativo?
+      - Eu consigo uma segunda opinião médica via app mesmo sem estar com o diagnóstico fechado?
+      - Posso usar o app para conseguir uma segunda opinião sobre um tratamento?
+      - Como eu faço pra validar meu diagnóstico com outro médico no app?
+      - No app tem como verificar com outro médico o meu diagnóstico?
+      - Posso acessar outro especialista através do aplicativo?
+      - Eu consigo um parecer de outro médico sobre meu tratamento pelo app?
+      - Dá pra buscar uma segunda opinião de outro médico pelo app?
+      - O app tem algum médico que oferece segunda opinião?
+      - Tem como pedir ajuda de outro médico no app para uma segunda opinião?
+      - Como faço para buscar uma segunda opinião médica em um especialista pelo app?
+      - Consigo saber a opinião de outro médico no app?
+      - O aplicativo tem alguma opção para consultar um médico diferente sobre o diagnóstico?
+
+  - intent: avisos_medicamento
+    examples: |
+      - O aplicativo oferece alguma funcionalidade de lembrete para medicamentos ou consultas?
+      - O aplicativo pode me alertar sobre possíveis emergências cardíacas, como ataques cardíacos?
+      - O app tem recurso de lembrete para tomar medicamentos ou marcar consultas?
+      - O aplicativo permite configurar lembretes para horários de medicamentos ou consultas médicas?
+      - Existe no app alguma funcionalidade de aviso para medicamentos e consultas?
+      - O aplicativo pode enviar notificações para lembrar de tomar remédios ou ir a consultas?
+      - O app oferece suporte para agendar lembretes de medicamentos ou compromissos médicos?
+      - É possível usar o aplicativo para receber lembretes sobre consultas e remédios?
+      - O app tem alguma ferramenta para lembrar de horários de medicação ou consultas?
+      - Dá para configurar lembretes no aplicativo para remédios e consultas médicas?
+      - O aplicativo oferece notificações automáticas para compromissos médicos e horários de medicamentos?
+      - Há no app uma opção de lembretes para controle de consultas e medicações?
+      - O app tem funcionalidades para me alertar sobre riscos de emergências cardíacas, como um ataque do coração?
+      - O aplicativo pode me notificar sobre sinais de possíveis emergências cardíacas, como infarto?
+      - O app pode detectar e me alertar sobre sintomas de ataques cardíacos?
+      - O aplicativo oferece alertas para situações de emergência relacionadas ao coração, como um infarto?
+      - O app consegue identificar sinais de ataques cardíacos e me avisar sobre isso?
+      - O aplicativo pode me alertar sobre possíveis emergências cardíacas em tempo real?
+      - O app tem algum recurso para me avisar sobre riscos de problemas cardíacos graves, como infarto?
+      - O aplicativo pode enviar alertas caso eu tenha sinais de um ataque cardíaco?
+      - O app pode me notificar em caso de sinais de emergência cardíaca, como um ataque do coração?
+      - O aplicativo tem a capacidade de alertar sobre possíveis ataques cardíacos ou outras emergências cardíacas?
+      - O aplicativo pode me ajudar a gerenciar o uso de dispositivos médicos, como marcapassos?
+      - O app oferece funcionalidades para ajudar a gerenciar dispositivos médicos, como marcapassos?
+      - O aplicativo pode me auxiliar no controle do uso de marcapassos e outros dispositivos médicos?
+      - O app permite o monitoramento e gerenciamento de dispositivos médicos, como marcapassos?
+      - O aplicativo ajuda a gerenciar dispositivos médicos, como marcapassos?
+      - O app tem recursos para controlar o uso de marcapassos e outros dispositivos de saúde?
+      - É possível usar o aplicativo para gerenciar dispositivos médicos, como marcapassos?
+      - O aplicativo oferece suporte no acompanhamento do uso de marcapassos?
+      - O app pode ser utilizado para gerenciar dispositivos médicos, como marcapassos?
+      - O aplicativo inclui funcionalidades para monitorar e gerenciar marcapassos?
+      - Posso usar o app para controlar o funcionamento de marcapassos e outros dispositivos médicos?
+      - O aplicativo oferece algum alerta pra quando eu tenho que tomar o remédio?
+      - Como o app me avisa sobre meus horários de remédio?
+      - Dá pra configurar no app alertas pra tomar medicamento?
+      - O app me lembra de tomar os remédios na hora certa?
+      - Posso configurar um alerta pra tomar meu remédio no aplicativo?
+      - O app tem como me avisar quando eu preciso ir no médico?
+      - Como configurar no app lembrete de consulta médica?
+      - O aplicativo pode me lembrar das consultas médicas e remédios?
+      - Tem como agendar no app lembrete de consulta e de tomar remédio?
+      - O app avisa quando for a hora de eu tomar meus medicamentos?
+
+  - intent: dietas_saudaveis
+    examples: |
+      - O aplicativo oferece sugestões de dietas saudáveis para o coração?
+      - O app fornece recomendações de dietas benéficas para o coração?
+      - O aplicativo sugere planos alimentares saudáveis para o coração?
+      - Há no app alguma funcionalidade para indicar dietas que beneficiam a saúde cardíaca?
+      - O app oferece orientações sobre alimentação saudável para o coração?
+      - É possível obter sugestões de dietas específicas para cuidar do coração no aplicativo?
+      - O aplicativo inclui dicas de nutrição para melhorar a saúde do coração?
+      - O app possui algum recurso para ajudar na escolha de dietas saudáveis para o coração?
+      - O aplicativo dá conselhos alimentares para manter o coração saudável?
+      - É oferecida no app alguma orientação sobre refeições adequadas para o coração?
+      - O app traz sugestões de alimentos que promovem a saúde cardíaca?
+      - Tem no app alguma dica de dieta para fortalecer o coração?
+      - O app dá sugestões de alimentação pra melhorar o coração?
+      - O app me ajuda a montar uma dieta boa pro coração?
+      - O aplicativo tem alguma recomendação sobre o que comer pra cuidar do coração?
+      - Dá pra encontrar no app dicas sobre o que comer pra manter o coração saudável?
+      - O app oferece uma dieta saudável para quem quer melhorar a saúde do coração?
+      - O app tem planos de alimentação que ajudam na saúde do coração?
+      - No app tem sugestões de dietas pra quem tem problemas cardíacos?
+      - O aplicativo sugere o que comer pra manter o coração em boa forma?
+      - O app fornece planos alimentares para melhorar a saúde cardiovascular?
+      - Tem no app dicas de cardápios saudáveis pro coração?
+      - O app recomenda o que comer pra prevenir doenças cardíacas?
+      - Como o app me ajuda a melhorar a saúde do meu coração com alimentação?
+      - O app tem uma dieta saudável pra quem tem colesterol alto?
+      - O aplicativo sugere alimentos que ajudam a controlar a pressão arterial?
+      - O app tem alguma lista de alimentos que fazem bem pro coração?
+      - No app tem dicas pra melhorar a alimentação e cuidar do coração?
+      - O app pode sugerir receitas saudáveis pra o coração?
+      - Dá pra achar receitas pro coração no app?
+      - O app tem sugestões de refeições que fazem bem pro coração?
+      - No aplicativo tem dicas sobre o que comer pra evitar problemas cardíacos?
+      - O app tem planos alimentares pra melhorar a circulação sanguínea?
+      - O aplicativo dá conselhos sobre o que comer pra ter um coração saudável?
+      - Como o app me ajuda com a alimentação saudável pro coração?
+      - O app sugere cardápios pra quem tem risco de doenças cardíacas?
+      - O aplicativo tem dietas que ajudam a controlar o colesterol?
+      - O app oferece alimentos que ajudam na prevenção de doenças cardíacas?
+
+  - intent: niveis_colesterol
+    examples: |
+      - Posso usar o aplicativo para acompanhar meus níveis de colesterol e triglicerídeos?
+      - O app pode ser usado para monitorar meus níveis de colesterol e triglicerídeos?
+      - O aplicativo permite acompanhar as taxas de colesterol e triglicerídeos?
+      - É possível usar o app para registrar e acompanhar meu colesterol e triglicerídeos?
+      - O app oferece suporte para controlar meus níveis de colesterol e triglicerídeos?
+      - Dá para monitorar os níveis de colesterol e triglicerídeos no aplicativo?
+      - O aplicativo pode ajudar a acompanhar minhas taxas de colesterol e triglicerídeos?
+      - É possível rastrear os níveis de colesterol e triglicerídeos com o app?
+      - O app possui funcionalidade para registrar e verificar colesterol e triglicerídeos?
+      - O aplicativo pode ser utilizado para controlar as taxas de colesterol e triglicerídeos?
+      - O app permite armazenar informações sobre meus níveis de colesterol e triglicerídeos?
+      - Dá pra usar o aplicativo para acompanhar a evolução do colesterol e triglicerídeos?
+      - O app inclui recursos para monitorar colesterol e triglicerídeos regularmente?
+      - Posso acompanhar os resultados dos meus exames de colesterol e triglicerídeos no aplicativo?
+      - O app permite registrar e visualizar meus níveis de colesterol e triglicerídeos?
+      - É possível usar o aplicativo para gerenciar informações sobre meu colesterol e triglicerídeos?
+      - Dá para usar o app pra acompanhar o colesterol e triglicerídeos?
+      - O aplicativo tem como monitorar meus níveis de colesterol e triglicerídeos?
+      - O app pode me ajudar a controlar o colesterol e triglicerídeos?
+      - O app tem um recurso para ver meus níveis de colesterol e triglicerídeos?
+      - O aplicativo pode ser usado para verificar os níveis de colesterol e triglicerídeos?
+      - Eu posso monitorar colesterol e triglicerídeos pelo app?
+      - Tem como ver os níveis de colesterol e triglicerídeos no app?
+      - O app tem algum recurso pra controlar os níveis de colesterol?
+      - O app serve pra monitorar o colesterol e triglicerídeos ou só o colesterol?
+      - Posso controlar meus níveis de colesterol com esse aplicativo?
+      - O app tem como registrar os níveis de colesterol?
+      - Dá pra usar o app pra controlar o colesterol e triglicerídeos com mais facilidade?
+      - O app me avisa quando meu colesterol tá muito alto?
+      - Como o aplicativo me ajuda a monitorar o colesterol e triglicerídeos?
+      - Tem como o aplicativo me alertar sobre níveis altos de colesterol e triglicerídeos?
+      - O app armazena os meus exames de colesterol e triglicerídeos?
+      - Eu posso ter um histórico do meu colesterol e triglicerídeos no app?
+      - O app faz acompanhamento do colesterol com base nos meus exames?
+      - Dá pra comparar os resultados dos exames de colesterol e triglicerídeos no app?
+      - O app serve pra me ajudar a controlar meu colesterol em tempo real?
+      - O app me avisa se meus níveis de colesterol estão acima do normal?
+      - Posso ver se os meus triglicerídeos estão controlados com o app?
+
+  - intent: compartilhar_com_medico
+    examples: |
+      - Posso compartilhar minhas informações de saúde com meu médico diretamente pelo aplicativo?
+      - Posso enviar minhas informações de saúde diretamente para meu médico pelo aplicativo?
+      - O aplicativo permite que eu compartilhe meus dados de saúde com meu médico?
+      - É possível enviar minhas informações de saúde para meu médico através do aplicativo?
+      - O aplicativo oferece a opção de compartilhar dados médicos com o meu médico?
+      - Posso enviar minhas informações de saúde diretamente para o médico usando o aplicativo?
+      - O aplicativo tem funcionalidade para compartilhar meus dados de saúde com o médico?
+      - É viável compartilhar minhas informações médicas com o médico pelo aplicativo?
+      - O aplicativo possibilita que eu compartilhe dados de saúde diretamente com meu médico?
+      - O aplicativo permite que minhas informações de saúde sejam enviadas diretamente para o médico?
+      - Como faço para compartilhar minhas informações de saúde com meu médico através do aplicativo?
+      - Posso enviar informações sobre minha saúde para o meu médico usando o aplicativo?
+      - O aplicativo facilita o compartilhamento de dados de saúde com o meu médico?
+      - Há uma maneira de enviar minhas informações médicas para o médico por meio do aplicativo?
+      - O aplicativo oferece a funcionalidade de encaminhar meus dados de saúde ao médico?
+      - Posso compartilhar minhas informações de saúde com meu médico diretamente pelo aplicativo de maneira segura?
+      - Como compartilho meus dados de saúde com meu médico pelo app?
+      - Dá pra enviar minhas infos médicas pro médico direto pelo app?
+      - O aplicativo me deixa mandar meus exames pro meu médico?
+      - Posso enviar meu histórico de saúde para o médico pelo app?
+      - O app tem como enviar meus resultados médicos direto pro médico?
+      - Dá pra compartilhar os exames e consultas com meu médico pelo app?
+      - O aplicativo tem uma funcionalidade pra enviar as minhas informações médicas?
+      - Posso enviar meus exames para o meu médico com o app de forma simples?
+      - O app tem como encaminhar meus dados médicos pro médico?
+      - Como faço pra mandar os meus exames pro médico através do app?
+      - O aplicativo me permite enviar informações sobre a minha saúde para o meu médico diretamente?
+      - O app facilita a comunicação com o médico sobre meus exames e resultados?
+      - Dá pra enviar um relatório médico pro médico direto no app?
+      - O app tem como enviar meus dados médicos sem que ninguém veja?
+      - Posso compartilhar meu histórico de saúde com o médico de forma segura no app?
+      - O app tem algum recurso de privacidade para garantir o sigilo dos meus dados médicos?
+      - Posso compartilhar resultados de exames com meu médico de maneira fácil pelo app?
+      - O aplicativo tem como garantir que o compartilhamento com o médico é seguro?
+      - O app tem como compartilhar os meus resultados de exames em tempo real com o médico?
+      - Posso compartilhar com meu médico as atualizações do meu estado de saúde pelo app?
+      - O aplicativo permite o envio dos meus dados médicos de forma rápida e direta ao médico?
+      - Dá pra mandar os resultados de exames e outros dados médicos pro meu médico usando o app?
+      - Como faço pra mandar os resultados dos meus exames pro médico diretamente do app?
+      - O app me deixa mandar as informações médicas pros médicos de maneira simples?
+      - O app tem alguma maneira de mandar meus exames diretamente pra consulta médica?
+
+  - intent: sugerir_diagnostico
+    examples: |
+      - Quais são os tipos de diagnósticos que o aplicativo pode sugerir?
+      - O aplicativo oferece quais opções de diagnósticos?
+      - Que categorias de diagnósticos o aplicativo pode apresentar?
+      - Quais diagnósticos o aplicativo é capaz de sugerir?
+      - Que tipos de diagnósticos podem ser indicados pelo aplicativo?
+      - Quais são os diagnósticos sugeridos pelo aplicativo?
+      - Quais diagnósticos estão disponíveis no aplicativo?
+      - Que tipos de condições o aplicativo pode identificar?
+      - O aplicativo sugere quais tipos de diagnósticos possíveis?
+      - Que opções de diagnóstico o aplicativo oferece?
+      - O aplicativo consegue sugerir quais diagnósticos?
+      - Que tipos de problemas o aplicativo pode diagnosticar?
+      - Quais possibilidades de diagnóstico o aplicativo apresenta?
+      - Que condições o aplicativo pode detectar ou sugerir?
+      - Quais diagnósticos estão listados como sugestões no aplicativo?
+      - O aplicativo pode sugerir diagnósticos para problemas cardíacos?
+      - Quais doenças o app pode sugerir como diagnóstico?
+      - O app tem como sugerir diagnósticos para doenças comuns?
+      - O aplicativo pode indicar doenças cardiovasculares?
+      - Quais diagnósticos o app consegue sugerir para problemas cardíacos?
+      - O app oferece diagnósticos para doenças do coração?
+      - O aplicativo tem opções de diagnósticos para doenças pulmonares?
+      - O aplicativo pode sugerir diagnósticos para problemas de pressão alta?
+      - O app consegue identificar doenças cardíacas como infarto ou arritmia?
+      - O app sugere diagnósticos de doenças crônicas, como diabetes?
+      - Quais condições o aplicativo pode diagnosticar, como diabetes ou hipertensão?
+      - O app tem como identificar condições como colesterol alto ou pressão alta?
+      - O aplicativo pode sugerir diagnósticos para problemas respiratórios?
+      - O app consegue sugerir diagnósticos para doenças cardíacas e respiratórias?
+      - O aplicativo oferece diagnósticos de doenças como AVC ou infarto?
+      - O app pode sugerir diagnósticos relacionados ao colesterol e triglicerídeos?
+      - Que tipo de doenças o app pode diagnosticar, como doenças do coração?
+      - O aplicativo tem a capacidade de sugerir diagnósticos de doenças graves?
+      - O app consegue sugerir condições como infarto ou hipertensão?
+      - O aplicativo oferece diagnósticos de doenças como asma ou bronquite?
+      - O app pode sugerir diagnósticos para doenças respiratórias graves?
+      - O app pode sugerir diagnósticos de problemas de saúde mental, como depressão?
+      - O app sugere doenças relacionadas ao sistema digestivo?
+      - O aplicativo tem como sugerir doenças do fígado ou pâncreas?
+      - O app pode sugerir diagnósticos sobre problemas renais?
+      - O aplicativo pode sugerir diagnósticos para problemas de obesidade?
+      - O app tem diagnósticos para condições relacionadas à saúde digestiva?
+      - O aplicativo pode sugerir diagnósticos para doenças autoimunes?
+      - O app tem capacidade de sugerir diagnósticos para doenças infecciosas?
+
+  - intent: monitorar_pressao
+    examples: |
+      - O aplicativo pode me ajudar a monitorar minha pressão arterial e frequência cardíaca?
+      - O app consegue monitorar minha pressão arterial e batimentos cardíacos?
+      - O aplicativo pode acompanhar minha pressão arterial e frequência do coração?
+      - É possível usar o app para rastrear minha pressão e frequência cardíaca?
+      - O aplicativo oferece suporte para monitorar minha pressão e batimentos cardíacos?
+      - Como o app pode ajudar a controlar minha pressão arterial e pulsação?
+      - O aplicativo permite acompanhar a pressão arterial e os batimentos do coração?
+      - O app pode registrar minha pressão arterial e frequência cardíaca?
+      - Dá para usar o aplicativo para monitorar pressão e ritmo cardíaco?
+      - O aplicativo ajuda a controlar minha pressão e frequência do coração?
+      - Posso utilizar o app para verificar minha pressão arterial e pulsação?
+      - O aplicativo pode medir e acompanhar minha pressão arterial e frequência cardíaca?
+      - O app consegue monitorar pressão arterial e ritmo cardíaco em tempo real?
+      - O aplicativo é capaz de registrar minha pressão arterial e batimentos cardíacos?
+      - Como o app pode me ajudar a monitorar a pressão arterial e os batimentos do coração?
+      - Dá para usar o aplicativo para rastrear minha pressão e frequência do coração?
+      - O app tem como monitorar minha pressão e batimentos cardíacos?
+      - O aplicativo consegue medir minha pressão e pulsação?
+      - Como posso usar o aplicativo para controlar minha pressão arterial?
+      - O app consegue monitorar minha pressão arterial e ritmo cardíaco em tempo real?
+      - O aplicativo oferece alguma funcionalidade para controlar minha pressão?
+      - O app pode acompanhar a evolução da minha pressão arterial?
+      - Dá pra usar o app para verificar a pressão e o ritmo do coração?
+      - O aplicativo tem como registrar minha pressão arterial e batimentos do coração?
+      - Posso usar o aplicativo para verificar a minha pressão e batimentos?
+      - O app pode me ajudar a medir minha pressão arterial e frequência cardíaca?
+      - O aplicativo consegue monitorar a pressão arterial em tempo real?
+      - O aplicativo tem recursos para monitorar a minha pressão e pulsação ao longo do dia?
+      - Dá pra usar o aplicativo pra registrar e controlar minha pressão e pulsação?
+      - O app oferece recursos para controlar a pressão arterial e o ritmo cardíaco?
+      - Posso usar o aplicativo para controlar minha pressão e batimentos cardíacos?
+      - O app pode fazer um monitoramento completo da minha pressão arterial?
+      - O aplicativo ajuda no acompanhamento da minha pressão arterial e batimentos?
+      - O app consegue registrar minha pressão e frequência cardíaca em diferentes horários?
+      - O aplicativo tem um recurso para medir e controlar a pressão arterial?
+      - O app consegue identificar alterações na minha pressão e batimentos?
+      - O aplicativo pode me avisar se minha pressão arterial está alta ou baixa?
+      - O app tem como verificar minha pressão arterial e pulsação automaticamente?
+      - O aplicativo consegue monitorar minha pressão e batimentos em tempo real?
+      - O app pode fornecer relatórios sobre a minha pressão arterial e pulsação?
+      - O aplicativo consegue medir a pressão arterial e registrar os batimentos cardíacos?
+
+  - intent: exame_ecg
+    examples: |
+      - O que é um eletrocardiograma (ECG) e como ele pode ajudar no diagnóstico de doenças cardíacas?
+      - O que é um ECG e como ele auxilia no diagnóstico de problemas cardíacos?
+      - Como funciona um eletrocardiograma e de que forma ele ajuda a detectar doenças cardíacas?
+      - Para que serve um ECG e como ele pode identificar problemas no coração?
+      - O que um eletrocardiograma pode revelar sobre a saúde do coração?
+      - Como um ECG contribui para o diagnóstico de doenças cardíacas?
+      - O que um eletrocardiograma mede e como ele é usado para detectar problemas cardíacos?
+      - De que forma um ECG pode ser útil no monitoramento da saúde do coração?
+      - O que um eletrocardiograma avalia e como ele ajuda na identificação de doenças cardíacas?
+      - Qual é a finalidade de um ECG no diagnóstico de problemas do coração?
+      - Como um eletrocardiograma funciona para detectar anormalidades cardíacas?
+      - O que um ECG pode mostrar sobre a atividade elétrica do coração?
+      - Como o eletrocardiograma é usado na prática médica para identificar doenças cardíacas?
+      - Qual é o papel do ECG na análise de condições cardíacas?
+      - Em quais situações um eletrocardiograma pode ajudar a diagnosticar doenças do coração?
+      - Como um eletrocardiograma pode ser utilizado para verificar a saúde do coração?
+      - Como o ECG pode ser usado para detectar arritmias cardíacas?
+      - O que é o exame ECG e como ele pode ajudar a detectar problemas no coração?
+      - Para que serve o ECG no diagnóstico de doenças cardíacas?
+      - Como o exame ECG pode ajudar a identificar problemas como infarto ou arritmias?
+      - Qual a importância do ECG para detectar irregularidades no batimento cardíaco?
+      - O que um ECG pode revelar sobre a atividade elétrica do coração?
+      - Como o ECG pode ajudar na identificação de infartos cardíacos?
+      - Como o ECG pode detectar anomalias no ritmo do coração?
+      - O ECG pode identificar problemas no coração, como taquicardia ou bradicardia?
+      - O que o exame de ECG pode mostrar sobre a saúde do seu coração?
+      - Como o ECG é utilizado para diagnosticar problemas de ritmo cardíaco?
+      - O ECG pode ajudar a identificar falhas no funcionamento do coração?
+      - O que um eletrocardiograma ajuda a descobrir no seu coração?
+      - O que o ECG pode mostrar sobre a saúde do seu sistema cardiovascular?
+      - O exame de ECG pode detectar problemas cardíacos que não aparecem em outros exames?
+      - Como o ECG pode ser usado para verificar se há alguma lesão no coração?
+      - O exame de ECG pode ajudar a monitorar a recuperação de doenças cardíacas?
+      - Para que serve um exame ECG e como ele pode ser útil na prevenção de doenças cardíacas?
+      - O ECG serve para detectar problemas no coração, como arritmias e infarto?
+      - O que um exame de ECG pode dizer sobre o funcionamento do coração?
+      - Como funciona o exame de ECG e o que ele pode revelar sobre o coração?
+      - O ECG pode ser usado para diagnosticar insuficiência cardíaca?
+      - Qual é a utilidade de um ECG no diagnóstico de doenças do coração?
+      - Como o ECG pode ser utilizado para monitorar a evolução de doenças cardíacas?
+
+  - intent: estresse_afeta_saude
+    examples: |
+      - Como o estresse afeta a saúde do coração e como posso gerenciá-lo melhor?
+      - De que maneira o estresse impacta a saúde cardíaca e como posso controlá-lo?
+      - Como o estresse contribui para problemas no coração e qual a melhor forma de gerenciá-lo?
+      - Qual é a relação entre estresse e saúde do coração, e como posso lidar melhor com isso?
+      - Como o estresse afeta o funcionamento do coração e como posso reduzi-lo?
+      - O estresse pode prejudicar o coração? Como posso controlá-lo para evitar danos?
+      - Quais os efeitos do estresse na saúde do coração e como posso administrá-lo de forma eficaz?
+      - Como o estresse pode afetar o coração e qual a melhor maneira de controlá-lo?
+      - Como o estresse aumenta o risco de doenças cardíacas e como posso gerenciá-lo?
+      - O que o estresse faz ao coração e como posso manter o controle sobre ele?
+      - Como lidar com o estresse de maneira eficaz para proteger minha saúde cardíaca?
+      - O estresse pode causar doenças cardíacas? Como posso controlar isso?
+      - Como o estresse afeta a pressão arterial e o coração?
+      - O estresse pode aumentar o risco de infarto?
+      - De que forma o estresse impacta a circulação sanguínea e a saúde do coração?
+      - Como o estresse pode afetar os batimentos cardíacos e o funcionamento do coração?
+      - O que posso fazer para diminuir os efeitos do estresse na saúde do meu coração?
+      - Como o estresse pode prejudicar o sistema cardiovascular?
+      - Quais os riscos do estresse para a saúde do coração e como evitá-los?
+      - O estresse pode piorar a saúde do coração? Como posso me proteger?
+      - Como o estresse pode afetar o fluxo sanguíneo e o coração?
+      - Quais são os sintomas de estresse que podem afetar o coração?
+      - Como controlar o estresse para manter o coração saudável?
+      - O que o estresse faz ao corpo e como isso pode afetar o coração?
+      - Como o estresse está relacionado ao aumento do colesterol e problemas cardíacos?
+      - O estresse pode prejudicar o ritmo cardíaco? Como posso prevenir isso?
+      - O estresse pode ser responsável por doenças do coração? O que fazer?
+      - Como o estresse afeta a saúde mental e o coração ao mesmo tempo?
+      - Como o estresse afeta minha pressão arterial e o risco de infarto?
+      - O estresse afeta a saúde do coração? Como posso evitar os danos?
+      - Como controlar a ansiedade e o estresse para proteger o coração?
+      - Como o estresse contribui para o aumento da pressão arterial e doenças do coração?
+      - O estresse é um dos principais fatores de risco para problemas cardíacos?
+      - Como o estresse pode afetar a capacidade do coração de bombear sangue adequadamente?
+      - O que é mais perigoso para o coração: o estresse ou a pressão alta?
+      - Como controlar o estresse para reduzir o risco de um AVC ou infarto?
+      - O estresse pode ser mais prejudicial que o sedentarismo para o coração?
+      - Quais são as técnicas mais eficazes para reduzir o estresse e proteger o coração?
+      - Como o estresse pode afetar a saúde do sistema circulatório e o coração?
+      - Como controlar o estresse no dia a dia para evitar doenças cardíacas?
+      - O estresse pode causar dores no peito? O que fazer?
+      - Como o estresse influencia no aumento do risco de aterosclerose?
+
+  - intent: exames_detecta_doencas_cardiacas
+    examples: |
+      - Quais exames são recomendados para detectar problemas cardíacos?
+      - Quais exames podem ser feitos para identificar problemas no coração?
+      - Quais são os principais exames para diagnosticar doenças cardíacas?
+      - Que exames médicos ajudam a detectar problemas no coração?
+      - Quais os testes recomendados para avaliar a saúde do coração?
+      - Quais exames ajudam no diagnóstico de problemas cardíacos?
+      - Que tipos de exames são indicados para verificar condições cardíacas?
+      - Quais procedimentos médicos podem identificar doenças do coração?
+      - Que exames são utilizados para avaliar problemas cardíacos?
+      - Como é possível detectar problemas cardíacos por meio de exames?
+      - Quais os exames recomendados para verificar a saúde do coração?
+      - Que testes médicos são mais indicados para identificar doenças cardíacas?
+      - Quais exames cardiológicos são necessários para detectar anormalidades no coração?
+      - O que pode ser feito para descobrir problemas cardíacos através de exames?
+      - Quais são os exames mais comuns para diagnosticar condições cardíacas?
+      - Que exames são essenciais para identificar problemas no sistema cardiovascular?
+      - Quais exames posso fazer para saber se tenho algum problema no coração?
+      - Como posso saber se estou com problemas cardíacos por meio de exames?
+      - Quais são os exames mais eficazes para detectar doenças no coração?
+      - O que um ecocardiograma pode detectar em relação à saúde do coração?
+      - Como um ECG pode ajudar a diagnosticar doenças cardíacas?
+      - Quais exames de imagem são usados para avaliar a saúde do coração?
+      - O que é o exame de estresse cardíaco e como ele pode ajudar?
+      - Quais exames são realizados para detectar infarto do miocárdio?
+      - Como o teste de esforço pode indicar problemas cardíacos?
+      - Quais exames são indicados para verificar a presença de arritmias?
+      - O que é um cateterismo e como ele ajuda a identificar doenças no coração?
+      - Quais exames podem diagnosticar insuficiência cardíaca?
+      - O que o exame de sangue pode revelar sobre problemas cardíacos?
+      - Quais exames podem detectar colesterol elevado e riscos para o coração?
+      - Como o ecocardiograma ajuda a detectar doenças do coração?
+      - O que o exame de ultrassom do coração pode identificar?
+      - Como o exame de holter pode ajudar no diagnóstico de doenças cardíacas?
+      - Quais são os exames recomendados para quem tem histórico de doenças no coração?
+      - O exame de pressão arterial pode ajudar a detectar problemas cardíacos?
+      - O que o teste de colesterol e triglicerídeos pode revelar sobre a saúde do coração?
+      - Quais exames de laboratório ajudam a identificar doenças cardíacas?
+      - Como o exame de tomografia pode detectar doenças no coração?
+      - O que é um exame de ressonância magnética cardíaca e como ele funciona?
+      - Quais exames podem diagnosticar doenças arteriais coronárias?
+      - O que a cintilografia cardíaca pode revelar sobre a saúde do coração?
+      - O que é o teste de provocação farmacológica e como ele ajuda a diagnosticar problemas cardíacos?
+      - Quais exames de diagnóstico são usados para avaliar a função do coração?
+      - Como é feito o diagnóstico de infarto com exames médicos?
+      - O exame de estresse é eficaz para detectar problemas cardíacos? Como ele funciona?
+
+  - intent: riscos_doencas_cardiacas
+    examples: |
+      - Quais são os fatores de risco para doenças cardíacas que posso controlar?
+      - Quais fatores de risco para doenças cardíacas eu posso controlar?
+      - O que posso fazer para controlar os fatores de risco para doenças cardíacas?
+      - Quais aspectos do meu estilo de vida posso modificar para reduzir os riscos cardíacos?
+      - Quais fatores de risco para problemas cardíacos estão sob meu controle?
+      - Como posso controlar os fatores que aumentam o risco de doenças cardíacas?
+      - Quais hábitos eu posso mudar para minimizar os riscos de doenças cardíacas?
+      - Quais condições de saúde relacionadas ao coração posso controlar para evitar doenças?
+      - O que posso fazer para reduzir os fatores de risco para doenças cardíacas?
+      - Quais fatores de risco para o coração posso ajustar para melhorar minha saúde cardíaca?
+      - Como posso diminuir os fatores de risco para problemas cardíacos que são controláveis?
+      - Como posso controlar o colesterol para reduzir os riscos cardíacos?
+      - O que posso fazer para reduzir a pressão arterial e evitar problemas no coração?
+      - Como posso controlar meu peso para diminuir os riscos de doenças cardíacas?
+      - Quais mudanças no meu estilo de vida podem diminuir o risco de infarto?
+      - Como posso controlar o estresse para reduzir o risco de doenças cardíacas?
+      - O que posso fazer para diminuir o risco de doenças cardíacas se tiver histórico familiar?
+      - Como a prática de exercícios pode reduzir os fatores de risco cardíacos?
+      - O que posso fazer para controlar a glicose e reduzir o risco de problemas cardíacos?
+      - Como posso melhorar minha alimentação para diminuir os riscos cardíacos?
+      - Quais são os fatores de risco mais importantes para as doenças do coração?
+      - Como posso prevenir doenças cardíacas se estiver em risco devido ao sedentarismo?
+      - O que fazer para reduzir o risco de doenças cardíacas causadas pelo tabagismo?
+      - Como posso controlar os fatores hereditários que influenciam no risco de doenças cardíacas?
+      - Quais hábitos alimentares eu devo evitar para proteger a saúde do meu coração?
+      - O que posso mudar no meu dia a dia para evitar doenças cardíacas?
+      - Como a hipertensão contribui para doenças cardíacas e o que fazer para controlá-la?
+      - Quais fatores de risco posso evitar para não desenvolver problemas cardíacos?
+      - Como o álcool influencia no risco de doenças cardíacas e o que posso fazer para controlá-lo?
+      - Quais fatores de risco ambientais posso controlar para proteger meu coração?
+      - Como evitar o sedentarismo e reduzir os riscos para a saúde do coração?
+      - O que posso fazer para reduzir o risco de doenças cardíacas na menopausa?
+      - Quais comportamentos saudáveis posso adotar para reduzir os riscos cardíacos?
+      - Como o estresse influencia nas doenças do coração e o que fazer para reduzi-lo?
+      - Quais são os riscos de doenças cardíacas que podem ser prevenidos com atividades físicas?
+      - O que é mais importante para controlar os riscos de doenças cardíacas: dieta ou exercícios?
+      - Como melhorar minha qualidade de vida para reduzir o risco de doenças do coração?
+      - O que posso fazer para controlar a inflamação no corpo e reduzir os riscos cardíacos?
+      - Como o sedentarismo afeta o risco de doenças cardíacas e como posso mudar isso?
+      - O que posso fazer para controlar meu peso e evitar doenças cardíacas?
+      - Quais fatores de risco posso modificar para prevenir doenças cardiovasculares?
+      - Como controlar a alimentação para diminuir o risco de doenças cardíacas?
+      - Quais hábitos posso adotar para melhorar a saúde do meu coração?
+      - Como controlar a ansiedade e diminuir os riscos de doenças cardíacas?
+
+  - intent: sinais_alerta_infarto_miocardio
+    examples: |
+      - Quais são os sinais de alerta de um infarto do miocárdio?
+      - Quais são os sintomas indicativos de um infarto do miocárdio?
+      - Como identificar os sinais de um possível infarto do miocárdio?
+      - Quais sinais podem sugerir que alguém está tendo um infarto?
+      - Quais são os principais sinais de um infarto do miocárdio?
+      - Como saber se estou tendo um infarto do miocárdio?
+      - Quais os sinais de alerta para um infarto do miocárdio?
+      - Como reconhecer os sintomas de um infarto do miocárdio?
+      - Quais os primeiros sinais de um infarto do miocárdio?
+      - O que devo observar para identificar um possível infarto do miocárdio?
+      - Quais sintomas devem me preocupar e podem indicar um infarto do miocárdio?
+      - Como sei se é infarto ou só dor no peito?
+      - Quais os sintomas mais comuns de um infarto do coração?
+      - Como saber se estou com risco de infarto?
+      - O que sinto quando estou tendo um infarto do miocárdio?
+      - Como identificar um infarto de miocárdio em fase inicial?
+      - Como reconhecer os sinais de um infarto iminente?
+      - Quais são os primeiros sintomas de infarto?
+      - O que pode indicar um infarto do miocárdio?
+      - Quais sintomas são comuns em quem tem infarto do miocárdio?
+      - Qual a diferença entre uma dor no peito e um infarto?
+      - Dor no peito sempre significa infarto?
+      - Como saber se estou tendo um infarto ou apenas uma dor muscular?
+      - Quais sinais não devo ignorar se estou com risco de infarto?
+      - Se sentir dor no peito, é sinal de infarto?
+      - O que fazer se eu achar que estou tendo um infarto?
+      - Como eu posso identificar um infarto só pelos sintomas?
+      - O que é um infarto do miocárdio e como saber se é isso que estou tendo?
+      - Quais os sintomas que podem indicar um infarto?
+      - Eu posso sentir um infarto de maneira diferente de outras pessoas?
+      - O infarto do miocárdio tem sinais diferentes dependendo da pessoa?
+      - Como saber se estou tendo infarto ou só uma má digestão?
+      - Qual o sintoma mais comum de infarto do miocárdio?
+      - Quais são os sintomas menos conhecidos do infarto?
+      - A dor no peito é sempre acompanhada de outros sintomas de infarto?
+      - Quais sintomas indicam infarto em mulheres?
+      - Como saber se é um infarto ou só uma indigestão?
+      - Quais sinais me indicam que meu coração está em perigo?
+      - Como saber se a dor no peito é infarto ou ansiedade?
+      - Quando a dor no peito se torna um sinal de infarto?
+      - O que fazer se tiver dor no peito e dificuldades para respirar?
+
+  - intent: sinais_sintomas_doencas_cardiacas
+    examples: |
+      - Quais são os sinais e sintomas mais comuns de doenças cardíacas?
+      - Quais os sinais mais comuns de problemas cardíacos?
+      - Quais são os principais sintomas de doenças do coração?
+      - Como posso identificar sinais de doenças cardíacas?
+      - Quais os sintomas típicos de problemas no coração?
+      - Que sinais indicam a presença de uma doença cardíaca?
+      - Quais os sintomas mais frequentes associados a doenças cardíacas?
+      - Como saber se alguém pode estar com uma doença no coração?
+      - Quais os sinais iniciais de problemas cardíacos?
+      - Que sintomas costumam aparecer em casos de doenças do coração?
+      - Quais as manifestações mais comuns de doenças cardíacas?
+      - Como os problemas cardíacos geralmente se manifestam?
+      - Que sinais podem indicar um problema no coração?
+      - Quais os sintomas característicos de doenças cardíacas?
+      - Como identificar os primeiros sinais de doenças do coração?
+      - Quais os sintomas que devem preocupar em relação ao coração?
+      - Quais são os primeiros sinais de uma doença no coração?
+      - Como saber se estou tendo problemas no coração?
+      - O que devo observar para identificar problemas cardíacos?
+      - Quais sintomas são sinais de alerta para doenças cardíacas?
+      - Como perceber que o coração está com problema?
+      - Quais são os sintomas iniciais de doenças no coração?
+      - Como identificar sintomas que podem indicar doença no coração?
+      - O que sentir quando está com algum problema no coração?
+      - Como saber se os sintomas são de doença cardíaca?
+      - Quando devo me preocupar com os sinais que tenho no peito?
+      - Quais os sintomas que me indicam que posso ter problemas no coração?
+      - Sinto dor no peito, isso pode ser problema no coração?
+      - Quais sintomas indicam que devo procurar um médico para problemas cardíacos?
+      - Como saber se estou tendo uma crise cardíaca ou só um cansaço?
+      - Quais sinais o coração dá quando está com problemas?
+      - Como saber se a dor no peito é do coração ou outra coisa?
+      - O que é sinal de que o coração não vai bem?
+      - Como saber se o sintoma é grave e pode ser relacionado ao coração?
+      - Se tiver falta de ar, pode ser problema no coração?
+      - Dor no peito é sempre sinal de problema no coração?
+      - Como o coração reage a doenças?
+      - Se sentir dores no peito e falta de ar, pode ser doença no coração?
+      - Quais sinais podem ser um alerta para doenças no coração?
+      - Sinto uma dor no peito, deve ser um sinal de doença cardíaca?
+      - Como saber se estou com doença no coração sem dor no peito?
+
+  - intent: sintomas_insuficiencia_cardiaca
+    examples: |
+      - Quais são os sintomas de insuficiência cardíaca congestiva?
+      - Quais são os sinais indicativos de insuficiência cardíaca congestiva?
+      - Como identificar os sintomas de insuficiência cardíaca congestiva?
+      - Quais os principais sintomas da insuficiência cardíaca congestiva?
+      - Quais sinais mostram que uma pessoa pode estar com insuficiência cardíaca congestiva?
+      - Como posso reconhecer os sintomas de insuficiência cardíaca congestiva?
+      - O que pode indicar a presença de insuficiência cardíaca congestiva?
+      - Quais os sintomas típicos de insuficiência cardíaca congestiva?
+      - Como a insuficiência cardíaca congestiva se manifesta no corpo?
+      - Quais sintomas devem ser observados para identificar insuficiência cardíaca congestiva?
+      - O que é importante observar nos sintomas de insuficiência cardíaca congestiva?
+      - Como saber se estou com insuficiência cardíaca congestiva?
+      - Quais os primeiros sinais de insuficiência cardíaca congestiva?
+      - Quais sintomas indicam que posso estar com insuficiência cardíaca?
+      - Como saber se tenho insuficiência cardíaca?
+      - Quais sintomas de insuficiência cardíaca podem aparecer?
+      - O que pode ser considerado um sintoma de insuficiência cardíaca?
+      - Como posso identificar que estou com insuficiência cardíaca?
+      - Quais sinais indicam insuficiência no coração?
+      - Como saber se estou tendo insuficiência cardíaca congestiva?
+      - Quais são os sinais de alerta para insuficiência cardíaca?
+      - Como identificar os sinais de insuficiência cardíaca?
+      - O que fazer se perceber sinais de insuficiência cardíaca?
+      - Insuficiência cardíaca pode causar falta de ar, é isso?
+      - Quais são os sintomas mais comuns de insuficiência cardíaca?
+      - Se eu tiver dificuldade para respirar, pode ser insuficiência cardíaca?
+      - Como a insuficiência cardíaca afeta o corpo?
+      - O que sentir quando estou com insuficiência cardíaca?
+      - Insuficiência cardíaca pode causar inchaço nas pernas, é normal?
+      - Como a insuficiência cardíaca pode se manifestar?
+      - Quais os sintomas de insuficiência cardíaca nas pernas?
+      - O que fazer se sentir cansaço excessivo e falta de ar?
+      - A insuficiência cardíaca pode causar inchaço no corpo?
+      - Como a insuficiência cardíaca afeta os pulmões?
+      - O que fazer quando tenho dificuldades para respirar por causa da insuficiência cardíaca?
+      - Como posso saber se meu coração não está conseguindo bombear corretamente?
+      - O que é um sintoma comum de insuficiência cardíaca?
+      - Como a insuficiência cardíaca afeta a respiração?
+      - Se eu tiver cansaço muito rápido, pode ser insuficiência cardíaca?
+      - Quais são os sintomas mais graves de insuficiência cardíaca congestiva?
+      - Insuficiência cardíaca pode me fazer sentir tontura ou falta de equilíbrio?
+      - Como saber se a falta de ar é causada por insuficiência cardíaca?
+      - Quando o inchaço nas pernas é sinal de insuficiência cardíaca?
+      
+  - intent: tratamentos_arritmias_cardiacas
+    examples: |
+      - Quais são os tratamentos disponíveis para arritmias cardíacas?
+      - Quais tratamentos existem para arritmias cardíacas?
+      - Como as arritmias cardíacas podem ser tratadas?
+      - Quais são as opções de tratamento para quem tem arritmia cardíaca?
+      - Como posso tratar uma arritmia no coração?
+      - Quais são as alternativas terapêuticas para arritmias cardíacas?
+      - Quais tratamentos médicos estão disponíveis para arritmias cardíacas?
+      - Como tratar os diferentes tipos de arritmias cardíacas?
+      - Quais os métodos mais eficazes para tratar arritmias cardíacas?
+      - O que pode ser feito para tratar uma arritmia cardíaca?
+      - Quais os tratamentos disponíveis para regular os batimentos cardíacos em casos de arritmia?
+      - O que é mais indicado para controlar uma arritmia no coração?
+      - Como tratar batimento cardíaco irregular?
+      - Quais medicamentos ajudam no tratamento de arritmia cardíaca?
+      - Como faço pra controlar uma arritmia do coração?
+      - Como é feito o tratamento para arritmia cardíaca?
+      - O tratamento de arritmia é só com medicação ou existe outra forma?
+      - Quais remédios são usados para tratar arritmia no coração?
+      - Qual o tratamento mais eficaz pra arritmia cardíaca?
+      - Existem terapias alternativas para tratar arritmias cardíacas?
+      - Tem cirurgia para tratar arritmia cardíaca?
+      - A cirurgia é a melhor opção pra quem tem arritmia cardíaca?
+      - O tratamento de arritmia pode ser feito só com mudança de hábitos?
+      - Como posso fazer para controlar os batimentos do coração com arritmia?
+      - Quais exames são necessários antes de iniciar o tratamento para arritmia?
+      - Quais opções de tratamento para arritmias cardíacas são menos invasivas?
+      - Como funciona o tratamento de arritmia cardíaca com marcapasso?
+      - O marcapasso é uma solução eficaz para arritmias cardíacas?
+      - Quais os riscos de um tratamento de arritmia com marcapasso?
+      - Quais são os efeitos colaterais do tratamento de arritmia com medicamentos?
+      - O tratamento de arritmia é sempre a base de medicamentos?
+      - Tem algum remédio que resolve arritmia cardíaca de forma rápida?
+      - O tratamento de arritmia pode incluir só mudanças no estilo de vida?
+      - Posso controlar minha arritmia apenas com alimentação saudável?
+      - Qual a melhor forma de tratar a arritmia cardíaca em idosos?
+      - Tem tratamento pra arritmia cardíaca que não precise de cirurgia?
+      - Existe algum tratamento caseiro para arritmia?
+      - Quais são os tratamentos mais modernos para arritmias cardíacas?
+      - A cardioversão é eficaz para tratar arritmias cardíacas?
+      - O que é cardioversão e como ela trata as arritmias?
+      - Como faço pra saber se meu tratamento de arritmia está funcionando?
+      - O que é a ablação cardíaca e como ela ajuda a tratar a arritmia?
+      - O tratamento de arritmia com ablação é perigoso?
+      - O que é mais indicado: medicamentos ou cirurgia pra arritmia cardíaca?
+
+  - intent: habitos_para_melhorar_saude
+    examples: |
+      - Quais mudanças no estilo de vida podem ajudar a melhorar a saúde do coração?
+      - Que mudanças no estilo de vida podem beneficiar a saúde do coração?
+      - Como ajustar meus hábitos diários para melhorar a saúde cardíaca?
+      - Quais alterações no dia a dia ajudam a proteger o coração?
+      - Que mudanças nos hábitos de vida podem fortalecer a saúde do coração?
+      - Como posso adaptar meu estilo de vida para cuidar melhor do meu coração?
+      - Quais práticas no cotidiano contribuem para a saúde cardíaca?
+      - O que posso mudar na minha rotina para melhorar a saúde do coração?
+      - Que ajustes no estilo de vida são recomendados para prevenir problemas cardíacos?
+      - Como hábitos saudáveis podem impactar positivamente a saúde do coração?
+      - Quais transformações no estilo de vida ajudam a manter o coração saudável?
+      - O que eu posso fazer no meu dia a dia pra melhorar a saúde do meu coração?
+      - Quais atitudes diárias ajudam a manter o coração saudável?
+      - Que hábitos eu tenho que mudar pra cuidar melhor do coração?
+      - O que mudar na rotina diária para proteger o coração?
+      - Como eu posso fortalecer meu coração com mudanças nos hábitos diários?
+      - Que ações posso tomar no dia a dia pra melhorar a saúde do coração?
+      - Como melhorar a saúde cardíaca com hábitos simples?
+      - O que preciso fazer pra melhorar a saúde do meu coração no dia a dia?
+      - Quais são os melhores hábitos pra evitar problemas cardíacos?
+      - Como melhorar a saúde do coração com mais atividade física?
+      - Que hábitos de alimentação ajudam a manter o coração saudável?
+      - Como evitar problemas no coração com mudanças no meu estilo de vida?
+      - O que devo fazer na minha rotina pra fortalecer meu coração?
+      - O que posso fazer no dia a dia pra proteger meu coração?
+      - Como adotar um estilo de vida que previna doenças cardíacas?
+      - Quais mudanças alimentares são importantes pra saúde do coração?
+      - Como a alimentação pode melhorar a saúde do coração?
+      - Quais são os melhores exercícios para um coração saudável?
+      - Como melhorar a saúde do coração com dieta saudável?
+      - Que alimentos são bons pra manter o coração em forma?
+      - O que fazer pra melhorar a circulação e proteger o coração?
+      - Como a prática de exercícios pode ajudar na saúde do coração?
+      - Como melhorar a saúde cardíaca com uma alimentação balanceada?
+      - O que posso comer pra deixar o meu coração mais saudável?
+      - Como aumentar a saúde do meu coração sem sair de casa?
+      - Quais são os hábitos que mais ajudam a prevenir doenças cardíacas?
+      - Como deixar o coração mais forte com atitudes no dia a dia?
+      - O que fazer pra evitar doenças cardíacas com hábitos saudáveis?
+      - Como manter o coração saudável com alimentação e exercício físico?
+      - O que melhorar nos meus hábitos pra proteger o coração?
+      - Como a atividade física contribui pra saúde do coração?
+
+  - intent: exercicios_coracao
+    examples: |
+      - Existem exercícios específicos recomendados para fortalecer o coração?
+      - Quais tipos de exercícios são recomendados para fortalecer o coração?
+      - Existem exercícios específicos para melhorar a saúde cardiovascular?
+      - Que tipos de atividades físicas ajudam a fortalecer o coração?
+      - Quais exercícios são mais eficazes para melhorar a saúde do coração?
+      - Existem atividades físicas que ajudam a fortalecer o sistema cardiovascular?
+      - Quais exercícios posso fazer para manter o coração saudável e forte?
+      - Quais modalidades de exercício são indicadas para fortalecer o coração?
+      - Como os exercícios físicos podem contribuir para o fortalecimento do coração?
+      - Quais são os melhores exercícios para melhorar a saúde cardiovascular?
+      - Há exercícios que ajudam a prevenir doenças cardíacas e fortalecer o coração?
+      - Como posso fortalecer o coração com atividades físicas?
+      - Quais atividades podem ajudar meu coração a ficar mais forte?
+      - Quais tipos de treino ajudam a melhorar a saúde do coração?
+      - Como os exercícios ajudam a prevenir problemas no coração?
+      - Qual exercício fortalece mais o coração?
+      - O que posso fazer para melhorar a saúde do coração com exercícios físicos?
+      - Quais modalidades de exercício são mais indicadas para a saúde do coração?
+      - Qual exercício é melhor pra quem quer cuidar do coração?
+      - Como exercícios de respiração podem ajudar a fortalecer o coração?
+      - Quais exercícios são mais indicados para quem tem problemas no coração?
+      - Que tipos de atividades físicas fazem bem pro coração?
+      - Como melhorar a saúde do coração com caminhadas e corridas?
+      - Quais exercícios aeróbicos são bons para o coração?
+      - Como posso fazer exercícios para manter o coração forte?
+      - Qual exercício posso fazer para melhorar minha saúde cardíaca?
+      - Quais atividades físicas melhoram a circulação e o coração?
+      - O que devo fazer pra melhorar meu sistema cardiovascular?
+      - Que exercícios eu posso fazer em casa pra cuidar do meu coração?
+      - Como a caminhada ajuda a fortalecer o coração?
+      - Qual é o exercício ideal para quem tem o coração fraco?
+      - Exercícios de intensidade alta são bons pra saúde do coração?
+      - Quais atividades físicas previnem doenças cardíacas?
+      - É verdade que correr pode fortalecer o coração?
+      - Quais exercícios eu posso fazer sem ir à academia pra melhorar meu coração?
+      - Fazer yoga é bom pra saúde do coração?
+      - Quais atividades simples posso fazer pra fortalecer meu coração?
+      - Fazer bicicleta é bom pro coração?
+      - Quais exercícios posso fazer pra melhorar a saúde cardiovascular e perder peso?
+      - Quais são os melhores exercícios para quem tem problemas cardíacos?
+      - Como nadar pode ajudar no fortalecimento do coração?
+      
+  - intent: recomendacoes_autocuidado
+    examples: |
+      - O aplicativo oferece recomendações de autocuidado com base no meu diagnóstico?
+      - O aplicativo sugere práticas de autocuidado com base no meu diagnóstico?
+      - O aplicativo oferece recomendações personalizadas de autocuidado para o meu diagnóstico?
+      - Posso receber dicas de autocuidado adaptadas ao meu diagnóstico no aplicativo?
+      - O aplicativo fornece orientações de autocuidado com base no meu estado de saúde?
+      - Quais tipos de recomendações de autocuidado o aplicativo oferece de acordo com o meu diagnóstico?
+      - O aplicativo sugere medidas de autocuidado com base no diagnóstico que recebo?
+      - O aplicativo oferece conselhos de autocuidado relacionados ao meu diagnóstico?
+      - Com base no meu diagnóstico, o aplicativo me dá recomendações para melhorar minha saúde?
+      - O aplicativo proporciona orientações de autocuidado específicas para o meu diagnóstico?
+      - O aplicativo recomenda práticas de autocuidado para o meu diagnóstico?
+      - Como o aplicativo sugere autocuidado a partir do meu diagnóstico?
+      - O aplicativo oferece dicas personalizadas de autocuidado conforme o meu diagnóstico?
+      - O aplicativo sugere cuidados específicos com base na minha condição de saúde?
+      - O aplicativo disponibiliza recomendações de autocuidado para ajudar no meu diagnóstico?
+      - O aplicativo propõe ações de autocuidado conforme o diagnóstico que foi feito?
+      - O app me dá dicas de autocuidado dependendo do meu diagnóstico?
+      - O app oferece recomendações de cuidados com a saúde baseados no meu diagnóstico?
+      - O aplicativo personaliza as orientações de autocuidado conforme meu diagnóstico?
+      - Quais são as dicas de autocuidado oferecidas no app, considerando o meu diagnóstico?
+      - O aplicativo me ajuda a encontrar formas de cuidar melhor da minha saúde conforme meu diagnóstico?
+      - O app sugere rotinas de autocuidado baseadas na minha condição de saúde?
+      - O aplicativo tem sugestões de autocuidado adaptadas ao meu diagnóstico de saúde?
+      - Posso ver dicas de autocuidado adaptadas ao meu quadro de saúde no aplicativo?
+      - O app dá orientações específicas sobre autocuidado com base no meu diagnóstico de saúde?
+      - Como o aplicativo sugere melhorar minha saúde com dicas de autocuidado, conforme meu diagnóstico?
+      - O app oferece práticas de autocuidado feitas sob medida para meu estado de saúde?
+      - O aplicativo me oferece sugestões sobre como melhorar minha saúde de forma personalizada?
+      - Quais cuidados de autocuidado o app recomenda para minha saúde, levando em conta meu diagnóstico?
+      - O app pode me ajudar a melhorar minha saúde com dicas personalizadas de autocuidado?
+      - O aplicativo oferece planos de autocuidado com base na minha condição de saúde?
+      - O app personaliza as dicas de autocuidado conforme meu diagnóstico de saúde?
+      - Quais cuidados posso tomar, conforme o diagnóstico, com as sugestões do app?
+      - O aplicativo adapta as orientações de autocuidado de acordo com meu diagnóstico de saúde?
+      - Como posso seguir as dicas de autocuidado recomendadas no aplicativo para melhorar minha saúde?
+      - O app tem sugestões de autocuidado que atendem ao meu quadro clínico específico?
+      - O aplicativo me mostra como cuidar melhor da minha saúde com base no diagnóstico feito?
+
+  - intent: seguranca_informacoes_saude
+    examples: |
+      - O aplicativo é seguro para armazenar minhas informações de saúde?
+      - O aplicativo é confiável para guardar meus dados de saúde?
+      - Posso confiar na segurança do aplicativo para armazenar minhas informações de saúde?
+      - O aplicativo protege adequadamente meus dados de saúde?
+      - É seguro utilizar o aplicativo para registrar minhas informações médicas?
+      - O app oferece proteção suficiente para as informações de saúde armazenadas?
+      - Minhas informações de saúde estarão seguras ao serem salvas no aplicativo?
+      - O aplicativo garante a segurança dos meus dados médicos?
+      - Posso usar o aplicativo com segurança para manter minhas informações de saúde?
+      - As medidas de segurança do aplicativo são adequadas para proteger meus dados de saúde?
+      - O app utiliza tecnologia segura para armazenar informações médicas?
+      - É seguro confiar ao aplicativo minhas informações de saúde pessoal?
+      - Meus dados de saúde estarão protegidos no aplicativo?
+      - A privacidade das informações de saúde é garantida no app?
+      - O aplicativo oferece segurança para armazenar informações médicas sensíveis?
+      - Posso confiar no app para proteger minhas informações de saúde?
+      - O app é seguro pra armazenar meus dados de saúde?
+      - Quais medidas de segurança o app usa para proteger minhas informações de saúde?
+      - O app tem criptografia para proteger meus dados de saúde?
+      - Como o app protege as informações médicas que coloco nele?
+      - O app tem recursos de segurança pra proteger meus dados médicos?
+      - Minhas informações de saúde ficam seguras no app?
+      - O app usa dados criptografados para proteger as minhas informações de saúde?
+      - O app tem segurança suficiente pra manter meus dados de saúde privados?
+      - Como posso garantir que meus dados de saúde estão seguros no aplicativo?
+      - Quais são os mecanismos de segurança usados pelo aplicativo para proteger os dados médicos?
+      - O app pode vazar meus dados médicos? Como é protegida minha privacidade?
+      - O app é confiável quando se trata de segurança de dados de saúde?
+      - Posso ter certeza de que o app mantém a privacidade das minhas informações médicas?
+      - O aplicativo oferece segurança suficiente para os meus dados médicos pessoais?
+      - Quais cuidados o app toma pra proteger meus dados médicos pessoais?
+      - Quais proteções o app tem contra vazamento de dados de saúde?
+      - O app tem algum tipo de proteção contra hackers que tentem acessar meus dados de saúde?
+      - Eu posso confiar que meus dados médicos estão seguros no app?
+      - O app garante a proteção da minha privacidade em relação aos dados de saúde?
+      - O app é seguro pra guardar minhas informações médicas de forma confidencial?
+      - O aplicativo usa autenticação de dois fatores para proteger meus dados de saúde?
+      - Como o aplicativo impede que outras pessoas acessem meus dados de saúde?
+      - O app tem protocolos de segurança pra garantir que meus dados não sejam acessados sem minha permissão?
+      - O app é protegido contra acessos não autorizados aos meus dados de saúde?
+      - É seguro salvar minhas informações médicas pessoais no app?
+      - Eu posso confiar que o app não vai compartilhar minhas informações de saúde com outras pessoas?
+      
+  - intent: clinicas_proximas
+    examples: |
+      - Posso encontrar clínicas próximas que ofereçam tratamentos para minha condição diretamente no aplicativo?
+      - O aplicativo permite encontrar clínicas próximas que tratem minha condição?
+      - Posso localizar clínicas que ofereçam tratamentos para minha condição usando o aplicativo?
+      - O aplicativo oferece a opção de buscar clínicas próximas para o tratamento da minha condição?
+      - Como posso encontrar clínicas próximas que tratem minha condição através do aplicativo?
+      - O aplicativo ajuda a localizar clínicas que oferecem tratamentos para minha condição?
+      - Posso usar o aplicativo para encontrar clínicas próximas que atendem minha condição?
+      - O aplicativo fornece informações sobre clínicas próximas que tratam minha condição?
+      - É possível encontrar clínicas perto de mim que tratem minha condição no aplicativo?
+      - O aplicativo oferece uma funcionalidade para localizar clínicas que tratam minha condição?
+      - Como o aplicativo me ajuda a encontrar clínicas próximas com tratamentos para minha condição?
+      - O aplicativo facilita a busca por clínicas próximas que tratem minha condição?
+      - Posso encontrar clínicas que atendem minha condição e estão perto de mim no aplicativo?
+      - O aplicativo tem uma funcionalidade para buscar clínicas próximas com tratamentos para minha condição?
+      - Como posso procurar clínicas próximas para tratar minha condição no aplicativo?
+      - O aplicativo oferece uma ferramenta para encontrar clínicas próximas que ofereçam tratamentos específicos para minha condição?
+      - O app me ajuda a encontrar clínicas que atendem minha condição perto de mim?
+      - Como eu posso achar clínicas perto de mim que tratem minha condição no app?
+      - O app tem uma opção pra procurar clínicas que tratem minha condição perto de mim?
+      - Consigo achar clínicas no app que ofereçam tratamento pra minha condição?
+      - Como usar o app pra encontrar clínicas próximas que possam tratar minha condição?
+      - Posso procurar clínicas especializadas na minha condição através do app?
+      - O app tem alguma forma de buscar clínicas que tratem minha condição?
+      - O aplicativo me ajuda a achar clínicas próximas com tratamento para minha condição?
+      - Como eu faço pra encontrar clínicas que tratem minha condição perto de mim no aplicativo?
+      - O app tem uma busca por clínicas que oferecem tratamento pra minha condição perto de mim?
+      - Como posso usar o app pra achar clínicas que atendem minha condição?
+      - O aplicativo tem uma funcionalidade de busca por clínicas próximas que tratem minha condição?
+      - Como é possível procurar clínicas próximas que tratam minha condição usando o app?
+      - O app é bom pra achar clínicas perto de mim que tratem minha condição?
+      - Posso buscar clínicas próximas que atendem minha condição pelo app?
+      - O aplicativo me ajuda a encontrar clínicas especializadas pra minha condição perto de mim?
+      - O app me ajuda a encontrar clínicas de tratamento pra minha condição perto de mim?
+      - Como posso achar clínicas com tratamento pra minha condição pelo app?
+      - Posso localizar clínicas que atendem a minha condição pelo app?
+      - O aplicativo tem uma funcionalidade de busca por clínicas próximas?
+      - O app me ajuda a encontrar clínicas que ofereçam o tratamento pra minha condição?
+      - O app ajuda a achar clínicas que tratam minha doença perto de mim?
+      - Como fazer pra achar clínicas próximas que tratem minha doença através do app?
+      - O app tem uma função que encontra clínicas que tratam minha condição?
+
+  - intent: dados_saude_coletados
+    examples: |
+      - Quais tipos de dados de saúde o aplicativo coleta e como eles são utilizados?
+      - Quais dados de saúde são coletados pelo aplicativo e para que são usados?
+      - Que tipos de informações de saúde o aplicativo coleta e como são aplicadas?
+      - Quais dados sobre minha saúde o aplicativo coleta e qual a finalidade desse uso?
+      - O aplicativo coleta quais dados de saúde e como eles são aproveitados?
+      - Quais informações de saúde são armazenadas pelo aplicativo e como são utilizadas?
+      - Como o aplicativo usa os dados de saúde que coleta?
+      - Que tipos de dados de saúde o aplicativo armazena e qual é a sua utilização?
+      - O aplicativo coleta quais dados médicos e para que fim eles são usados?
+      - Quais tipos de dados sobre saúde são coletados pelo aplicativo e qual é o seu propósito?
+      - Quais informações de saúde são capturadas pelo aplicativo e como elas são aplicadas?
+      - O aplicativo coleta quais dados de saúde e para quais finalidades?
+      - Como os dados de saúde coletados pelo aplicativo são utilizados?
+      - Quais informações sobre minha saúde o aplicativo armazena e como são utilizadas?
+      - O que o aplicativo faz com os dados de saúde que coleta?
+      - Quais dados de saúde o aplicativo coleta e como esses dados são processados?
+      - Quais tipos de informações médicas o app coleta?
+      - Como o app usa os dados de saúde coletados?
+      - O que o app faz com os dados de saúde que ele coleta?
+      - O aplicativo coleta dados de saúde, mas o que é feito com eles depois?
+      - O app coleta informações de saúde, pra que são usadas?
+      - Quais dados de saúde são armazenados pelo app e pra quê?
+      - Como o app usa os dados coletados sobre minha saúde?
+      - Quais dados de saúde o app coleta e como isso impacta meu tratamento?
+      - Quais dados médicos são coletados e como são usados pelo aplicativo?
+      - O aplicativo armazena dados sobre minha saúde, como são usados?
+      - O app coleta minhas informações de saúde, mas como elas são aproveitadas?
+      - O que o app faz com as informações de saúde que coleta?
+      - O app coleta quais dados sobre saúde e qual é o uso deles?
+      - O app coleta dados médicos, mas como esses dados são utilizados?
+      - O aplicativo coleta quais informações e como elas são tratadas?
+      - Quais dados de saúde são armazenados pelo app e qual a finalidade disso?
+      - O app coleta dados de saúde, como isso ajuda no meu tratamento?
+      - Como o app utiliza os dados que coleta sobre minha saúde?
+      - Quais dados médicos são coletados pelo app e o que é feito com eles?
+      - O aplicativo armazena informações de saúde, como isso afeta meu tratamento?
+      - O aplicativo coleta meus dados de saúde, mas quais são as finalidades disso?
+      - Como o aplicativo usa as informações de saúde que ele coleta?
+      - O app armazena dados de saúde, mas como eles são usados depois?
+
+  - intent: risco_de_ter_doencas_cardiacas
+    examples: |
+      - Como posso saber se estou em risco de desenvolver uma doença cardíaca?
+      - Como descobrir se tenho risco de desenvolver doenças cardíacas?
+      - Como saber se estou propenso a problemas no coração?
+      - O que pode indicar que estou em risco de doenças cardíacas?
+      - Quais fatores mostram que posso desenvolver uma doença cardíaca?
+      - Como avaliar meu risco de ter problemas cardíacos?
+      - Quais os sinais de que posso estar em risco de uma doença do coração?
+      - Como posso identificar se estou vulnerável a doenças cardíacas?
+      - Que fatores indicam que posso ter propensão a doenças cardíacas?
+      - Como avaliar meu potencial risco de problemas no coração?
+      - Como identificar se há chances de eu desenvolver doenças do coração?
+      - O que devo observar para saber se estou em risco de doença cardíaca?
+      - Existe uma forma de saber se estou predisposto a problemas cardíacos?
+      - Como posso medir meu risco de desenvolver doenças cardíacas?
+      - Quais fatores podem mostrar que estou mais suscetível a problemas no coração?
+      - Como identificar se tenho um alto risco de doença cardíaca?
+      - Quais sinais indicam que estou em risco de problemas cardíacos?
+      - Como saber se sou propenso a ter doenças no coração?
+      - Quais os riscos de eu desenvolver problemas no coração?
+      - Como posso saber se tenho chance de ter uma doença cardíaca?
+      - Tem alguma maneira de medir meu risco de problemas cardíacos?
+      - Quais são os sinais que indicam que estou com risco de ter doenças no coração?
+      - O que posso fazer para saber se tenho risco de doenças cardíacas?
+      - Como posso avaliar meu risco para doenças do coração?
+      - Existe um teste para descobrir se estou em risco de doenças cardíacas?
+      - Quais fatores de saúde mostram que posso ter doenças cardíacas?
+      - Como posso ver se estou em risco de problemas no coração?
+      - O que preciso observar para saber se sou propenso a doenças cardíacas?
+      - Tem alguma forma de saber se sou vulnerável a doenças no coração?
+      - Como sei se estou com risco de ter problemas cardíacos?
+      - Quais fatores no meu corpo indicam risco de doença cardíaca?
+      - Como descobrir se tenho mais chances de ter doenças no coração?
+      - Como saber se tenho predisposição para problemas cardíacos?
+      - Quais coisas posso fazer para saber se estou em risco de doença do coração?
+      - Como identificar se estou mais propenso a ter problemas cardíacos?
+      - O que pode mostrar que estou com risco de ter problemas no coração?
+      - Como posso descobrir se estou em risco de desenvolver doenças no coração?
+      - Quais exames posso fazer para saber se estou em risco de doenças cardíacas?
+      - Quais sinais indicam que eu posso ter chances de desenvolver problemas no coração?
+      - Como saber se estou sujeito a desenvolver doenças cardíacas?
+      - Existe algum jeito de saber se sou vulnerável a doenças do coração?

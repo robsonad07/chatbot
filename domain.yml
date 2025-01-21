@@ -1,0 +1,135 @@
+version: "3.1"
+intents:
+  - doenca_angina
+  - doenca_cardiomiopatia
+  - doenca_hipertensao
+  - danos_doencas_cardiacas
+  - efeitos_doencas_cardiacas
+  - exames_sangue
+  - segunda_opiniao_medica
+  - avisos_medicamento
+  - dietas_saudaveis
+  - niveis_colesterol
+  - compartilhar_com_medico
+  - sugerir_diagnostico
+  - monitorar_pressao
+  - exame_ecg
+  - estresse_afeta_saude
+  - exames_detecta_doencas_cardiacas
+  - riscos_doencas_cardiacas
+  - sinais_alerta_infarto_miocardio
+  - sinais_sintomas_doencas_cardiacas
+  - sintomas_insuficiencia_cardiaca
+  - tratamentos_arritmias_cardiacas
+  - habitos_para_melhorar_saude
+  - exercicios_coracao
+  - recomendacoes_autocuidado
+  - seguranca_informacoes_saude
+  - clinicas_proximas
+  - dados_saude_coletados
+  - risco_de_ter_doencas_cardiacas
+  - saudacao
+  - agradecimento
+  - finalizacao_conversa
+
+  
+responses:
+  utter_saudacao:
+    - text: Olá, como posso te ajudar?
+
+  utter_agradecimento:
+    - text: Por nada! Fico feliz em ajudar.
+
+  utter_finalizacao_conversa:
+    - text: Até mais, qualquer dúvida fale comigo.
+
+  utter_doenca_angina:
+    - text: A angina é uma dor ou desconforto no peito causado pela redução do fluxo de sangue para o coração, geralmente devido à obstrução nas artérias coronárias. Pode ser sentida como pressão, aperto ou queimação, frequentemente desencadeada por esforço físico ou estresse e aliviada com repouso. Se a dor persistir ou piorar, pode ser um sinal de ataque cardíaco, exigindo atendimento médico imediato.
+  
+  utter_doenca_cardiomiopatia:
+    - text: A cardiomiopatia é uma doença que afeta o músculo cardíaco, prejudicando sua capacidade de bombear sangue de forma eficiente. Pode ser causada por fatores genéticos, infecções, consumo excessivo de álcool ou outras condições subjacentes. Os sintomas incluem fadiga, falta de ar, inchaço nas pernas, tornozelos ou abdômen, palpitações, tontura e, em casos graves, desmaios ou dor no peito.
+  
+  utter_doenca_hipertensao:
+    - text: A hipertensão, ou pressão arterial elevada, força o coração a trabalhar mais para bombear sangue, o que pode levar ao espessamento das paredes do coração (hipertrofia), especialmente do ventrículo esquerdo. Isso aumenta o risco de insuficiência cardíaca, arritmias e doenças coronarianas, como o infarto.
+  
+  utter_danos_doencas_cardiacas:
+    - text: As doenças cardíacas mal tratadas podem levar a complicações graves a longo prazo, como insuficiência cardíaca, arritmias, infarto do miocárdio recorrente, acidente vascular cerebral (AVC), insuficiência renal e danos irreversíveis ao coração e aos vasos sanguíneos. Além disso, podem comprometer a qualidade de vida, causando fadiga crônica, limitações físicas e risco aumentado de morte súbita.
+ 
+  utter_efeitos_doencas_cardiacas:
+    - text: As doenças cardíacas podem afetar outras partes do corpo ao reduzir o fluxo sanguíneo, prejudicando órgãos como cérebro, rins e fígado. Podem causar AVC devido à formação de coágulos, insuficiência renal por má perfusão, edema e acúmulo de líquidos em membros inferiores e pulmões, além de comprometer a cicatrização e a imunidade. Também podem gerar sintomas sistêmicos, como fadiga crônica e dificuldade respiratória, impactando a qualidade de vida.
+  
+  utter_exames_sangue:
+    - text: Exames de sangue importantes para avaliar a saúde do coração incluem o perfil lipídico, que mede colesterol total, LDL, HDL e triglicerídeos; a dosagem de troponina, para detectar lesão cardíaca; o BNP ou NT-proBNP, que avalia insuficiência cardíaca; a glicemia e hemoglobina glicada, para monitorar diabetes; e os níveis de PCR (proteína C-reativa), que indicam inflamação associada a risco cardiovascular. Outros exames, como função renal e TSH, também podem ser relevantes.
+  
+  utter_segunda_opiniao_medica:
+    - text: Não é possível.
+  
+  utter_avisos_medicamento:
+    - text: Não oferecemos essa funcionalidade.
+  
+  utter_dietas_saudaveis:
+    - text: Não oferecemos sugestões de dietas, para isso é necessário buscar um profissional da saúde.
+  
+  utter_niveis_colesterol:
+    - text: Não oferecemos um monitoramento continuo dessas informações.
+  
+  utter_compartilhar_com_medico:
+    - text: Não, mas o seu médico pode usar as suas informações do aplicativo.
+  
+  utter_sugerir_diagnostico:
+    - text: O aplicativo não dar nenhum tipo de diagnóstico. Apenas explica diagnósticos
+  
+  utter_monitorar_pressao:
+    - text: O aplicativo não oferece essa funcionalidade.
+  
+  utter_exame_ecg:
+    - text: O eletrocardiograma (ECG) é um exame que registra a atividade elétrica do coração, identificando alterações no ritmo, frequência e condução elétrica. Ele ajuda a diagnosticar arritmias, isquemia, infarto e outros problemas cardíacos, além de monitorar a saúde do coração em avaliações de rotina ou em casos de sintomas como dor no peito ou palpitações.
+  
+  utter_estresse_afeta_saude:
+    - text: O estresse pode afetar a saúde do coração ao aumentar a pressão arterial, liberar hormônios como o cortisol e favorecer comportamentos prejudiciais, como má alimentação e sedentarismo. Para gerenciá-lo, pratique atividades físicas, meditação, técnicas de respiração, organize suas tarefas, cultive momentos de lazer e, se necessário, busque apoio psicológico.
+  
+  utter_exames_detecta_doencas_cardiacas:
+    - text: Os exames recomendados para detectar problemas cardíacos incluem o eletrocardiograma (ECG) para avaliar a atividade elétrica do coração, o ecocardiograma para analisar sua estrutura e função, o teste ergométrico para verificar o desempenho durante esforço, exames de sangue para medir colesterol e marcadores cardíacos, o Holter para monitorar o ritmo cardíaco por 24 horas, a tomografia ou ressonância magnética para imagens detalhadas e o cateterismo cardíaco para investigar obstruções nas artérias coronárias. A escolha depende dos sintomas e da avaliação médica.
+  
+  utter_riscos_doencas_cardiacas:
+    - text: Os fatores de risco para doenças cardíacas que você pode controlar incluem pressão alta, colesterol elevado, diabetes, obesidade, tabagismo, sedentarismo, alimentação pouco saudável, consumo excessivo de álcool e estresse. Adotar um estilo de vida saudável e seguir orientações médicas pode ajudar a gerenciá-los e reduzir os riscos.
+  
+  utter_sinais_alerta_infarto_miocardio:
+    - text: Os sinais de alerta de um infarto do miocárdio incluem dor ou pressão no peito que pode irradiar para braços, costas, pescoço ou mandíbula, dificuldade para respirar, suor excessivo, náusea, tontura e sensação de desmaio. Em alguns casos, especialmente em mulheres, os sintomas podem ser mais sutis, como desconforto abdominal ou fadiga intensa.
+  
+  utter_sinais_sintomas_doencas_cardiacas:
+    - text: Os sinais e sintomas mais comuns de doenças cardíacas incluem dor no peito, geralmente sentida como pressão ou aperto, falta de ar, especialmente durante esforços ou em repouso, palpitações ou sensação de batimentos cardíacos irregulares, fadiga extrema ou fraqueza, mesmo após atividades leves, inchaço nos pés, tornozelos ou pernas (edema), tontura ou desmaio (síncope) e, em alguns casos, náusea ou suor excessivo, especialmente durante um ataque cardíaco. Se esses sintomas ocorrerem, é importante buscar orientação médica imediatamente.
+  
+  utter_sintomas_insuficiencia_cardiaca:
+    - text: Os sintomas de insuficiência cardíaca congestiva incluem falta de ar, especialmente ao deitar ou durante esforços, fadiga extrema, inchaço nos pés, tornozelos e pernas, ganho de peso rápido devido à retenção de líquidos, tosse persistente, sensação de fraqueza, batimentos cardíacos irregulares e dificuldade para realizar atividades diárias. Se esses sintomas aparecerem, é essencial buscar atendimento médico.
+  
+  utter_tratamentos_arritmias_cardiacas:
+    - text: Os tratamentos para arritmias cardíacas incluem medicamentos para controlar a frequência ou o ritmo cardíaco, cardioversão elétrica para restaurar o ritmo normal, ablação por cateter para corrigir áreas específicas do coração que causam a arritmia, e dispositivos como marcapassos ou desfibriladores implantáveis. Em casos graves, pode ser necessária cirurgia para tratar a causa subjacente. A escolha do tratamento depende do tipo de arritmia, sua gravidade e o estado geral de saúde do paciente.
+  
+  utter_habitos_para_melhorar_saude:
+    - text: Para melhorar a saúde do coração, adote uma alimentação balanceada rica em frutas, vegetais, grãos integrais e gorduras saudáveis, pratique atividades físicas regularmente, mantenha um peso saudável, controle o estresse, evite o tabagismo e o consumo excessivo de álcool, reduza a ingestão de sal e açúcar, e monitore fatores como pressão arterial, colesterol e glicemia com acompanhamento médico.
+  
+  utter_exercicios_coracao:
+    - text: Sim, exercícios aeróbicos como caminhada, corrida leve, ciclismo e natação são altamente recomendados para fortalecer o coração, pois melhoram a circulação e aumentam a capacidade cardíaca. Exercícios de resistência, como musculação leve, ajudam a controlar a pressão arterial e o peso. Práticas como ioga e pilates também podem beneficiar o coração ao reduzir o estresse. Sempre é importante adaptar os exercícios à condição de saúde e buscar orientação médica antes de iniciar.
+  
+  utter_recomendacoes_autocuidado:
+    - text: Sim, nós te oferecemos recomendações de autocuidado com base no seu diagnóstico
+  
+  utter_seguranca_informacoes_saude:
+    - text: Sim, todas suas informações são guardadas apenas localmente no seu celular e não é compartilhada de nenhuma forma.
+  
+  utter_clinicas_proximas:
+    - text: Sim, utilizando nosso mapa de clínicas próximas.
+  
+  utter_dados_saude_coletados:
+    - text: Todos seus dados de saúde são armazenados apenas no seu celular e não é compartilhado de nenhuma forma.
+  
+  utter_risco_de_ter_doencas_cardiacas:
+    - text: Você pode estar em risco de desenvolver uma doença cardíaca se tiver fatores como histórico familiar de doenças cardíacas, pressão alta, colesterol elevado, diabetes, obesidade, tabagismo, sedentarismo, alimentação pouco saudável, estresse excessivo ou idade avançada. Consultar um médico para avaliação regular e monitorar esses fatores ajuda a identificar e reduzir os riscos.
+ 
+  utter_default:
+    - text: Desculpe, não posso te ajudar com isso, mas fique a vontade para fazer outra pergunta.
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

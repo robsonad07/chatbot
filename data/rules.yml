@@ -1,0 +1,163 @@
+version: "3.1"
+
+rules:
+  - rule: doenca_angina
+    steps:
+      - intent: doenca_angina
+      - action: utter_doenca_angina
+
+  - rule: doenca_cardiomiopatia
+    steps:
+      - intent: doenca_cardiomiopatia
+      - action: utter_doenca_cardiomiopatia
+
+  - rule: doenca_hipertensao
+    steps:
+      - intent: doenca_hipertensao
+      - action: utter_doenca_hipertensao
+
+  - rule: danos_doencas_cardiacas
+    steps:
+      - intent: danos_doencas_cardiacas
+      - action: utter_danos_doencas_cardiacas
+
+  - rule: efeitos_doencas_cardiacas
+    steps:
+      - intent: efeitos_doencas_cardiacas
+      - action: utter_efeitos_doencas_cardiacas
+
+  - rule: exames_sangue
+    steps:
+      - intent: exames_sangue
+      - action: utter_exames_sangue
+
+  - rule: segunda_opiniao_medica
+    steps:
+      - intent: segunda_opiniao_medica
+      - action: utter_segunda_opiniao_medica
+
+  - rule: avisos_medicamento
+    steps:
+      - intent: avisos_medicamento
+      - action: utter_avisos_medicamento
+
+  - rule: dietas_saudaveis
+    steps:
+      - intent: dietas_saudaveis
+      - action: utter_dietas_saudaveis
+
+  - rule: niveis_colesterol
+    steps:
+      - intent: niveis_colesterol
+      - action: utter_niveis_colesterol
+
+  - rule: compartilhar_com_medico
+    steps:
+      - intent: compartilhar_com_medico
+      - action: utter_compartilhar_com_medico
+
+  - rule: sugerir_diagnostico
+    steps:
+      - intent: sugerir_diagnostico
+      - action: utter_sugerir_diagnostico
+
+  - rule: monitorar_pressao
+    steps:
+      - intent: monitorar_pressao
+      - action: utter_monitorar_pressao
+
+  - rule: exame_ecg
+    steps:
+      - intent: exame_ecg
+      - action: utter_exame_ecg
+
+  - rule: estresse_afeta_saude
+    steps:
+      - intent: estresse_afeta_saude
+      - action: utter_estresse_afeta_saude
+
+  - rule: exames_detecta_doencas_cardiacas
+    steps:
+      - intent: exames_detecta_doencas_cardiacas
+      - action: utter_exames_detecta_doencas_cardiacas
+
+  - rule: riscos_doencas_cardiacas
+    steps:
+      - intent: riscos_doencas_cardiacas
+      - action: utter_riscos_doencas_cardiacas
+
+  - rule: sinais_alerta_infarto_miocardio
+    steps:
+      - intent: sinais_alerta_infarto_miocardio
+      - action: utter_sinais_alerta_infarto_miocardio
+
+  - rule: sinais_sintomas_doencas_cardiacas
+    steps:
+      - intent: sinais_sintomas_doencas_cardiacas
+      - action: utter_sinais_sintomas_doencas_cardiacas
+
+  - rule: sintomas_insuficiencia_cardiaca
+    steps:
+      - intent: sintomas_insuficiencia_cardiaca
+      - action: utter_sintomas_insuficiencia_cardiaca
+
+  - rule: tratamentos_arritmias_cardiacas
+    steps:
+      - intent: tratamentos_arritmias_cardiacas
+      - action: utter_tratamentos_arritmias_cardiacas
+
+  - rule: habitos_para_melhorar_saude
+    steps:
+      - intent: habitos_para_melhorar_saude
+      - action: utter_habitos_para_melhorar_saude
+
+  - rule: exercicios_coracao
+    steps:
+      - intent: exercicios_coracao
+      - action: utter_exercicios_coracao
+
+  - rule: recomendacoes_autocuidado
+    steps:
+      - intent: recomendacoes_autocuidado
+      - action: utter_recomendacoes_autocuidado
+
+  - rule: seguranca_informacoes_saude
+    steps:
+      - intent: seguranca_informacoes_saude
+      - action: utter_seguranca_informacoes_saude
+
+  - rule: clinicas_proximas
+    steps:
+      - intent: clinicas_proximas
+      - action: utter_clinicas_proximas
+
+  - rule: dados_saude_coletados
+    steps:
+      - intent: dados_saude_coletados
+      - action: utter_dados_saude_coletados
+
+  - rule: risco_de_ter_doencas_cardiacas
+    steps:
+      - intent: risco_de_ter_doencas_cardiacas
+      - action: utter_risco_de_ter_doencas_cardiacas
+
+  - rule: saudacao
+    steps:
+      - intent: saudacao
+      - action: utter_saudacao
+
+  - rule: agradecimento
+    steps:
+      - intent: agradecimento
+      - action: utter_agradecimento
+
+  - rule: finalizacao_conversa
+    steps:
+      - intent: finalizacao_conversa
+      - action: utter_finalizacao_conversa
+
+  - rule: frase_default
+    steps:
+    - intent: nlu_fallback
+    - action: utter_default
+
