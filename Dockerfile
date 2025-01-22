@@ -2,8 +2,8 @@
 FROM rasa/rasa:latest-full
 
 # Copie os arquivos do projeto para o container
-COPY . /app
-WORKDIR /app
+COPY . /chatbot
+WORKDIR /chatbot
 
 # Instale as dependências (caso tenha actions)
 RUN pip install --no-cache-dir -r requirements.txt
