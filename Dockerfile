@@ -1,8 +1,9 @@
 # Use uma imagem oficial do Rasa
-FROM rasa/rasa:latest-full
+FROM rasa/rasa:3.6.21
 
 # Copie os arquivos do projeto para o container
 COPY . /chatbot
+COPY models /chatbot/models
 WORKDIR /chatbot
 
 # Instale as dependências (caso tenha actions)
