@@ -31,9 +31,88 @@ intents:
   - saudacao
   - agradecimento
   - finalizacao_conversa
-
+  - dificuldade_respirar_insuficiencia_cardiaca
+  - cansaco_falta_de_ar_oque_fazer
+  - insuficiencia_cardiaca_inchaco
+  - o_que_e_arritmia_cardiaca
+  - dor_no_peito_causas
+  - sintomas_infarto
+  - dor_no_peito_serio
+  - tontura_problemas_cardiacos
+  - falta_de_ar_doenca_cardiaca
+  - palpitacoes_significado
+  - fatores_risco_doencas_cardiacas
+  - pressao_alta_problemas_coracao
+  - colesterol_alto_perigoso_coracao
+  - fumar_afeta_coracao
+  - diabetes_risco_doencas_cardiacas
+  - prevenir_doencas_cardiacas
+  - melhor_dieta_coracao
+  - exercicios_protegem_coracao
+  - alcool_seguro_coracao
+  - controlar_estresse_proteger_coracao
   
 responses:
+  utter_controlar_estresse_proteger_coracao:
+   - text: O estresse pode afetar gravemente o coração, aumentando a pressão arterial, a frequência cardíaca e os níveis de cortisol, o que eleva o risco de doenças cardíacas, como infarto, arritmias e AVC. Para controlar o estresse e proteger o coração, é importante adotar técnicas de relaxamento, como meditação, yoga e respiração profunda. Praticar hobbies relaxantes, como ler, pintar ou ouvir música, também ajuda a reduzir a tensão. Manter uma rotina de sono regular e praticar exercícios físicos regularmente são outras formas eficazes de controlar o estresse. Além disso, buscar apoio emocional com amigos, familiares ou um terapeuta pode ser fundamental para lidar com situações estressantes. Controlar o estresse não só protege o coração, mas também melhora a qualidade de vida como um todo.
+
+  utter_alcool_seguro_coracao:
+   - text: O consumo moderado de álcool pode ter alguns benefícios para o coração, como o aumento do colesterol bom (HDL), mas o excesso é extremamente prejudicial. A quantidade considerada segura é de até 1 dose por dia para mulheres e 2 doses por dia para homens, onde uma dose equivale a uma lata de cerveja, uma taça de vinho ou uma dose de destilado. No entanto, o consumo excessivo de álcool pode levar a problemas como hipertensão, arritmias cardíacas, cardiomiopatia (enfraquecimento do músculo cardíaco) e insuficiência cardíaca. Além disso, o álcool pode aumentar o risco de AVC e outras complicações cardiovasculares. Para quem não bebe, não é recomendado começar apenas pelos supostos benefícios ao coração. O ideal é priorizar outros hábitos saudáveis, como uma dieta equilibrada e exercícios físicos.
+
+  utter_exercicios_protegem_coracao:
+   - text: Sim, os exercícios físicos ajudam a proteger o coração de várias maneiras. A prática regular de atividades como caminhada, corrida, natação ou ciclismo fortalece o músculo cardíaco, melhora a circulação sanguínea e ajuda a controlar a pressão arterial. Além disso, os exercícios ajudam a reduzir o colesterol ruim (LDL) e aumentar o colesterol bom (HDL), prevenindo o acúmulo de placas de gordura nas artérias (aterosclerose). Eles também ajudam a controlar o peso, reduzir o estresse e melhorar os níveis de açúcar no sangue, fatores que contribuem para a saúde cardiovascular. Recomenda-se pelo menos 150 minutos de atividade moderada por semana, como caminhadas rápidas, ou 75 minutos de atividade intensa, como corrida. Antes de iniciar qualquer programa de exercícios, é importante consultar um médico, especialmente se você tiver condições pré-existentes.
+
+  utter_melhor_dieta_coracao:
+   - text: A melhor dieta para o coração é aquela que prioriza alimentos naturais e nutritivos, como frutas, vegetais, grãos integrais, nozes, sementes e peixes ricos em ômega-3, como salmão e sardinha. A dieta mediterrânea é um excelente exemplo, pois inclui azeite de oliva, que é rico em gorduras saudáveis, e limita o consumo de carnes vermelhas e processadas. Alimentos ricos em fibras, como aveia e feijão, ajudam a reduzir o colesterol, enquanto frutas e vegetais fornecem antioxidantes que protegem os vasos sanguíneos. É importante evitar alimentos processados, ricos em gorduras saturadas, açúcares e sódio, que podem aumentar o risco de doenças cardíacas. Beber água regularmente e limitar o consumo de bebidas açucaradas também são medidas essenciais. Uma dieta equilibrada, combinada com outros hábitos saudáveis, é a chave para manter o coração forte e saudável.
+
+  utter_prevenir_doencas_cardiacas:
+   - text: Para prevenir doenças cardíacas, é essencial adotar um estilo de vida saudável. Isso inclui manter uma alimentação balanceada, rica em frutas, vegetais, grãos integrais e proteínas magras, e pobre em gorduras saturadas, açúcares e sódio. A prática regular de exercícios físicos, como caminhadas, corridas ou natação, ajuda a fortalecer o coração e melhorar a circulação sanguínea. Evitar o tabagismo e limitar o consumo de álcool também são medidas importantes, pois ambos aumentam o risco de problemas cardíacos. Controlar o estresse com técnicas como meditação, yoga ou hobbies relaxantes pode ajudar a proteger o coração. Além disso, é fundamental monitorar e controlar condições como pressão alta, diabetes e colesterol alto, fazendo exames regulares e seguindo as orientações médicas. Manter um peso saudável e dormir bem também contribuem para a saúde cardiovascular.
+
+  utter_diabetes_risco_doencas_cardiacas:
+   - text: Sim, o diabetes aumenta significativamente o risco de doenças cardíacas. Níveis elevados de açúcar no sangue podem danificar os vasos sanguíneos e os nervos que controlam o coração, levando a condições como aterosclerose (acúmulo de placas de gordura nas artérias), que pode causar infarto, angina e AVC (derrame). Além disso, o diabetes está frequentemente associado a outros fatores de risco, como pressão alta, colesterol alto e obesidade, que também prejudicam a saúde cardiovascular. Pessoas com diabetes têm maior probabilidade de desenvolver insuficiência cardíaca, arritmias e outras complicações cardíacas. Por isso, é essencial controlar os níveis de glicose no sangue com uma dieta balanceada, prática regular de exercícios físicos, uso de medicamentos prescritos e acompanhamento médico regular.
+
+  utter_fumar_afeta_coracao:
+   - text: Sim, fumar afeta gravemente o coração. O tabagismo danifica os vasos sanguíneos, reduzindo a oxigenação do sangue e aumentando o risco de aterosclerose, que é o acúmulo de placas de gordura nas artérias. Isso pode levar ao estreitamento e bloqueio das artérias, aumentando o risco de infarto, angina e AVC (derrame). Além disso, fumar aumenta a pressão arterial e a frequência cardíaca, sobrecarregando o coração e elevando o risco de insuficiência cardíaca e arritmias. As substâncias tóxicas presentes no cigarro também causam inflamação e danos às células do coração e dos vasos sanguíneos. Parar de fumar é uma das melhores decisões para proteger a saúde do coração e reduzir o risco de doenças cardiovasculares.
+
+  utter_colesterol_alto_perigoso_coracao:
+   - text: Sim, o colesterol alto é perigoso para o coração. Quando os níveis de colesterol estão elevados, especialmente o LDL (conhecido como "colesterol ruim"), ele pode se acumular nas paredes das artérias, formando placas de gordura que estreitam e endurecem os vasos sanguíneos, uma condição chamada aterosclerose. Isso reduz o fluxo de sangue para o coração, aumentando o risco de infarto, angina e insuficiência cardíaca. Além disso, se uma placa se romper, pode formar um coágulo que bloqueia completamente a artéria, causando um ataque cardíaco ou AVC (derrame). Por isso, é importante controlar os níveis de colesterol com uma dieta saudável, rica em fibras e pobre em gorduras saturadas, prática regular de exercícios físicos e, quando necessário, uso de medicamentos prescritos por um médico.
+
+  utter_pressao_alta_problemas_coracao:
+   - text: Sim, a pressão alta (hipertensão) pode causar diversos problemas no coração. Quando a pressão arterial está elevada, o coração precisa trabalhar mais para bombear o sangue, o que pode levar ao espessamento do músculo cardíaco (hipertrofia ventricular esquerda) e, com o tempo, à insuficiência cardíaca. Além disso, a pressão alta danifica as paredes das artérias, facilitando o acúmulo de placas de gordura (aterosclerose), que podem bloquear o fluxo sanguíneo e causar infarto ou angina. A hipertensão também aumenta o risco de arritmias, AVC (derrame) e problemas nas válvulas cardíacas. Por isso, é fundamental controlar a pressão arterial com hábitos saudáveis, como uma dieta com pouco sal, prática regular de exercícios físicos, redução do estresse e, quando necessário, uso de medicamentos prescritos por um médico.
+
+  utter_fatores_risco_doencas_cardiacas:
+   - text: Os principais fatores de risco para doenças cardíacas incluem condições de saúde e hábitos que podem prejudicar o funcionamento do coração e das artérias. Entre eles estão a pressão alta (hipertensão), que sobrecarrega o coração e danifica as artérias; o colesterol alto, que pode levar ao acúmulo de placas de gordura nas artérias, bloqueando o fluxo sanguíneo; o tabagismo, que danifica os vasos sanguíneos e reduz a oxigenação do sangue; o diabetes, que aumenta o risco de aterosclerose e outros problemas cardiovasculares; a obesidade, que sobrecarrega o coração e está associada a outros fatores de risco como diabetes e pressão alta; o sedentarismo, que contribui para o ganho de peso e a má circulação sanguínea; e o estresse excessivo, que pode elevar a pressão arterial e desencadear arritmias. Além disso, fatores como histórico familiar de doenças cardíacas, idade avançada e gênero (homens têm maior risco em idades mais jovens, enquanto mulheres têm risco aumentado após a menopausa) também influenciam. Para reduzir esses riscos, é importante adotar um estilo de vida saudável, com alimentação balanceada, prática regular de exercícios físicos, controle do estresse e acompanhamento médico regular.
+
+  utter_palpitacoes_significado: 
+   - text: Palpitações são a sensação de que o coração está batendo de forma irregular, acelerada ou mais forte que o normal. Elas podem ser causadas por diferentes fatores, como arritmia cardíaca, que envolve batimentos irregulares ou fora do ritmo normal, e ansiedade ou estresse, que podem acelerar os batimentos cardíacos. Exercício físico intenso também pode provocar palpitações, pois o coração trabalha mais para suprir a demanda de oxigênio. Além disso, o consumo de cafeína, álcool ou nicotina pode estimular o coração, assim como problemas na tireoide, especialmente o hipertireoidismo. Algumas doenças cardíacas, como insuficiência cardíaca ou problemas nas válvulas, também podem estar associadas ao sintoma. Caso as palpitações sejam frequentes, durem muito tempo ou venham acompanhadas de tontura, falta de ar ou dor no peito, é importante buscar avaliação médica.
+
+  utter_falta_de_ar_doenca_cardiaca:
+   - text: Sim, a falta de ar pode ser um sinal de doença no coração, especialmente se ocorrer em repouso ou durante atividades simples. Algumas condições cardíacas associadas a esse sintoma incluem insuficiência cardíaca, em que o coração não consegue bombear sangue de forma eficiente, causando acúmulo de líquido nos pulmões, e arritmia cardíaca, quando batimentos irregulares afetam a circulação sanguínea. A doença coronariana, caracterizada por bloqueios nas artérias que reduzem o fluxo de sangue para o coração, e problemas nas válvulas cardíacas, que comprometem o bombeamento do sangue, também podem provocar falta de ar. Caso o sintoma seja persistente, piore com o tempo ou esteja acompanhado de dor no peito, tontura ou inchaço nas pernas, é essencial procurar um médico para avaliação.
+
+  utter_tontura_problemas_cardiacos:
+   - text: Sim, a tontura pode estar relacionada a problemas cardíacos, especialmente se for frequente ou acompanhada de outros sintomas. Algumas condições que podem causar tontura incluem arritmia cardíaca, quando batimentos irregulares afetam o fluxo sanguíneo para o cérebro, e variações na pressão arterial, seja baixa ou alta. Além disso, a insuficiência cardíaca pode provocar tontura por comprometer a capacidade do coração de bombear sangue adequadamente. O infarto também pode ter a tontura como sintoma, especialmente em mulheres. Doenças das válvulas cardíacas, que afetam a circulação sanguínea, são outra possível causa. Caso a tontura seja persistente ou venha acompanhada de sintomas como dor no peito, falta de ar, palpitações ou desmaios, é fundamental procurar um médico para uma avaliação cardíaca.
+
+  utter_dor_no_peito_serio:
+   - text: Para identificar se a dor no peito é algo sério, observe alguns sinais importantes. Se for uma dor intensa e persistente, principalmente caracterizada por pressão ou aperto no peito que não melhora, é um alerta. Outro indicativo é a irradiação da dor para o braço esquerdo, mandíbula, costas ou ombros. Além disso, sintomas como falta de ar, sudorese fria, náuseas, tontura ou desmaio podem estar associados a um problema cardíaco. A duração também é um fator relevante, se a dor persistir por mais de 10 minutos ou ocorrer de forma recorrente, requer atenção. Pessoas com fatores de risco, como hipertensão, diabetes, colesterol alto ou histórico familiar de doenças cardíacas, devem estar ainda mais atentas. Se a dor no peito vier acompanhada desses sintomas, é fundamental buscar atendimento médico imediatamente, pois pode indicar um infarto ou outra condição grave. Caso a dor seja leve e passageira, pode estar relacionada a gases, ansiedade ou tensão muscular, mas, ainda assim, uma avaliação médica é recomendada.
+
+  utter_sintomas_infarto:
+   - text: Os sintomas de um infarto podem variar, mas os mais comuns incluem dor ou aperto no peito, geralmente descrita como uma pressão intensa que pode irradiar para o braço esquerdo, mandíbula, costas ou ombros. Também pode ocorrer falta de ar, com dificuldade para respirar mesmo em repouso, além de sudorese fria, caracterizada por suor excessivo sem motivo aparente. Náuseas ou vômitos, tontura, desmaio, fadiga extrema e palpitações também são sinais de alerta. Em alguns casos, os sintomas podem ser mais sutis, especialmente em mulheres, que podem sentir fadiga, indigestão ou dor nas costas. Diante de qualquer um desses sinais, é fundamental buscar atendimento médico imediatamente, pois o infarto é uma emergência que exige ação rápida.
+
+  utter_dor_no_peito_causas:
+    - text: A dor no peito pode ter várias causas, desde condições menos graves, como gases, ansiedade ou tensão muscular, até problemas mais sérios, como infarto, angina, problemas pulmonares ou doenças do esôfago. A dor no peito relacionada ao coração geralmente é descrita como uma pressão ou aperto no peito, que pode irradiar para o braço esquerdo, mandíbula ou costas, e pode ser acompanhada de falta de ar, sudorese ou náuseas. No entanto, dores musculares ou relacionadas ao sistema digestivo também são comuns. Por ser um sintoma que pode indicar algo grave, é fundamental procurar atendimento médico imediatamente se a dor for intensa, persistente ou acompanhada de outros sintomas preocupantes.
+
+  utter_o_que_e_arritmia_cardiaca:
+    - text: A arritmia cardíaca é uma condição em que o coração bate de forma irregular, seja muito rápido (taquicardia), muito lento (bradicardia) ou com padrões desordenados. Isso acontece devido a falhas no sistema elétrico do coração, que controla a frequência e o ritmo dos batimentos cardíacos. A arritmia pode ser inofensiva ou indicar problemas mais sérios, dependendo do tipo e da gravidade. Alguns sintomas comuns incluem palpitações, tontura, falta de ar, dor no peito ou desmaios. Se você suspeitar de arritmia, é importante consultar um cardiologista para avaliação e tratamento adequado.
+
+  utter_insuficiencia_cardiaca_inchaco:
+    - text: Sim, a insuficiência cardíaca pode causar inchaço no corpo, especialmente nas pernas, pés, tornozelos e, em alguns casos, no abdômen. Isso ocorre porque, quando o coração não consegue bombear o sangue de forma eficiente, o líquido pode se acumular nos tecidos, causando edema (inchaço). Esse inchaço é frequentemente mais perceptível nas extremidades inferiores, mas também pode ocorrer em outras partes do corpo, dependendo da gravidade da condição. Se você notar inchaço persistente ou acompanhado de outros sintomas, como falta de ar, cansaço excessivo ou ganho de peso rápido, é importante procurar um médico para uma avaliação detalhada e tratamento adequado.
+
+  utter_cansaco_falta_de_ar_oque_fazer:
+    - text: Se você estiver sentindo cansaço excessivo e falta de ar, é importante agir com cuidado, pois esses sintomas podem estar relacionados a várias condições, como insuficiência cardíaca, problemas pulmonares, anemia, ansiedade ou até mesmo infecções. O primeiro passo é reduzir esforços físicos e descansar em um local arejado. Se os sintomas persistirem ou piorarem, procure atendimento médico imediatamente, especialmente se houver outros sinais, como dor no peito, tontura, inchaço nas pernas ou batimentos cardíacos irregulares. Um profissional de saúde poderá realizar exames para identificar a causa e indicar o tratamento adequado. Enquanto isso, evite automedicação e mantenha-se hidratado e em repouso.
+
+  utter_dificuldade_respirar_insuficiencia_cardiaca:
+    - text: A dificuldade para respirar ou a sensação de falta de ar pode, sim, estar relacionada à insuficiência cardíaca. Isso acontece porque, quando o coração não consegue bombear o sangue de forma eficiente, o líquido pode se acumular nos pulmões, causando congestão e dificultando a respiração. Esse sintoma é conhecido como dispneia e é um dos sinais mais comuns da insuficiência cardíaca. No entanto, a falta de ar também pode ser causada por outras condições, como problemas pulmonares, ansiedade ou anemia. Por isso, é importante consultar um médico para uma avaliação detalhada, especialmente se você tiver outros sintomas associados, como cansaço excessivo, inchaço nas pernas ou batimentos cardíacos irregulares. O profissional poderá realizar exames para confirmar ou descartar a insuficiência cardíaca e indicar o tratamento adequado.
+
   utter_saudacao:
     - text: Olá, como posso te ajudar?
 
@@ -110,7 +189,7 @@ responses:
     - text: Para melhorar a saúde do coração, adote uma alimentação balanceada rica em frutas, vegetais, grãos integrais e gorduras saudáveis, pratique atividades físicas regularmente, mantenha um peso saudável, controle o estresse, evite o tabagismo e o consumo excessivo de álcool, reduza a ingestão de sal e açúcar, e monitore fatores como pressão arterial, colesterol e glicemia com acompanhamento médico.
   
   utter_exercicios_coracao:
-    - text: Sim, exercícios aeróbicos como caminhada, corrida leve, ciclismo e natação são altamente recomendados para fortalecer o coração, pois melhoram a circulação e aumentam a capacidade cardíaca. Exercícios de resistência, como musculação leve, ajudam a controlar a pressão arterial e o peso. Práticas como ioga e pilates também podem beneficiar o coração ao reduzir o estresse. Sempre é importante adaptar os exercícios à condição de saúde e buscar orientação médica antes de iniciar.
+    - text: Exercícios aeróbicos como caminhada, corrida leve, ciclismo e natação são altamente recomendados para fortalecer o coração, pois melhoram a circulação e aumentam a capacidade cardíaca. Exercícios de resistência, como musculação leve, ajudam a controlar a pressão arterial e o peso. Práticas como ioga e pilates também podem beneficiar o coração ao reduzir o estresse. Sempre é importante adaptar os exercícios à condição de saúde e buscar orientação médica antes de iniciar.
   
   utter_recomendacoes_autocuidado:
     - text: Sim, nós te oferecemos recomendações de autocuidado com base no seu diagnóstico

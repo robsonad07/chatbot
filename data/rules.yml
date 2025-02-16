@@ -1,6 +1,106 @@
 version: "3.1"
 
 rules:
+  - rule: controlar_estresse_proteger_coracao
+    steps: 
+      - intent: controlar_estresse_proteger_coracao
+      - action: utter_controlar_estresse_proteger_coracao
+
+  - rule: alcool_seguro_coracao
+    steps: 
+      - intent: alcool_seguro_coracao
+      - action: utter_alcool_seguro_coracao
+
+  - rule: exercicios_protegem_coracao
+    steps: 
+      - intent: exercicios_protegem_coracao
+      - action: utter_exercicios_protegem_coracao
+
+  - rule: melhor_dieta_coracao
+    steps: 
+      - intent: melhor_dieta_coracao
+      - action: utter_melhor_dieta_coracao
+
+  - rule: prevenir_doencas_cardiacas
+    steps: 
+      - intent: prevenir_doencas_cardiacas
+      - action: utter_prevenir_doencas_cardiacas
+
+  - rule: diabetes_risco_doencas_cardiacas
+    steps: 
+      - intent: diabetes_risco_doencas_cardiacas
+      - action: utter_diabetes_risco_doencas_cardiacas
+
+  - rule: fumar_afeta_coracao
+    steps: 
+      - intent: fumar_afeta_coracao
+      - action: utter_fumar_afeta_coracao
+
+  - rule: colesterol_alto_perigoso_coracao
+    steps: 
+      - intent: colesterol_alto_perigoso_coracao
+      - action: utter_colesterol_alto_perigoso_coracao
+
+  - rule: pressao_alta_problemas_coracao
+    steps: 
+      - intent: pressao_alta_problemas_coracao
+      - action: utter_pressao_alta_problemas_coracao
+
+  - rule: fatores_risco_doencas_cardiacas
+    steps: 
+      - intent: fatores_risco_doencas_cardiacas
+      - action: utter_fatores_risco_doencas_cardiacas
+
+  - rule: palpitacoes_significado
+    steps: 
+      - intent: palpitacoes_significado
+      - action: utter_palpitacoes_significado
+
+  - rule: falta_de_ar_doenca_cardiaca
+    steps: 
+      - intent: falta_de_ar_doenca_cardiaca
+      - action: utter_falta_de_ar_doenca_cardiaca
+
+  - rule: tontura_problemas_cardiacos
+    steps: 
+      - intent: tontura_problemas_cardiacos
+      - action: utter_tontura_problemas_cardiacos
+
+  - rule: dor_no_peito_serio
+    steps: 
+      - intent: dor_no_peito_serio
+      - action: utter_dor_no_peito_serio
+
+  - rule: sintomas_infarto
+    steps: 
+      - intent: sintomas_infarto
+      - action: utter_sintomas_infarto
+
+  - rule: dor_no_peito_causas
+    steps: 
+      - intent: dor_no_peito_causas
+      - action: utter_dor_no_peito_causas
+
+  - rule: o_que_e_arritmia_cardiaca
+    steps: 
+      - intent: o_que_e_arritmia_cardiaca
+      - action: utter_o_que_e_arritmia_cardiaca
+
+  - rule: insuficiencia_cardiaca_inchaco
+    steps: 
+      - intent: insuficiencia_cardiaca_inchaco
+      - action: utter_insuficiencia_cardiaca_inchaco
+
+  - rule: cansaco_falta_de_ar_oque_fazer
+    steps: 
+      - intent: cansaco_falta_de_ar_oque_fazer
+      - action: utter_cansaco_falta_de_ar_oque_fazer
+
+  - rule: dificuldade_respirar_insuficiencia_cardiaca
+    steps: 
+      - intent: dificuldade_respirar_insuficiencia_cardiaca
+      - action: utter_dificuldade_respirar_insuficiencia_cardiaca
+
   - rule: doenca_angina
     steps:
       - intent: doenca_angina

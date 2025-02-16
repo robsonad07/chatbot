@@ -128,6 +128,125 @@ nlu:
       - Tchau
       - Acho que já tá bom
 
+  - intent: dor_no_peito_causas
+    examples: |
+      - Sinto dor no peito, o que pode ser?
+      - O que pode ser uma dor no peito?
+      - Dor no peito é sinal de quê?
+      - O que significa sentir dor no peito?
+      - O que pode causar dor no peito?
+      - Dor no peito pode ser algo grave?
+      - O que pode estar causando dor no peito?
+      - Dor no peito é preocupante?
+      - O que pode ser uma dor na região do peito?
+      - Dor no peito pode ser problema cardíaco?
+      - O que pode ser uma dor forte no peito?
+      - Dor no peito é sintoma de quê?
+      - O que pode ser uma dor persistente no peito?
+      - Dor no peito pode ser muscular?
+      - O que pode ser uma dor aguda no peito?
+      - Dor no peito pode ser ansiedade?
+      - O que pode ser uma dor no peito que vai e volta?
+      - Dor no peito pode ser gases?
+      - O que pode ser uma dor no peito ao respirar?
+      - Dor no peito pode ser pulmonar?
+      - O que pode ser uma dor no peito que irradia para o braço?
+
+  - intent: o_que_e_arritmia_cardiaca
+    examples: |
+      - O que é arritmia cardíaca?
+      - O que significa arritmia cardíaca?
+      - O que é uma arritmia no coração?
+      - Como definir arritmia cardíaca?
+      - O que quer dizer arritmia cardíaca?
+      - O que é batimento cardíaco irregular?
+      - O que é um ritmo cardíaco anormal?
+      - O que é um distúrbio no ritmo do coração?
+      - O que é taquicardia ou bradicardia?
+      - O que é um problema de ritmo cardíaco?
+      - O que é um coração com batimentos desregulados?
+      - O que é um coração com ritmo irregular?
+      - O que é um coração que bate fora do ritmo?
+      - O que é um coração com pulsação anormal?
+      - O que é um coração com batimentos acelerados ou lentos?
+      - O que é um coração com ritmo descompassado?
+      - O que é um coração com batimentos desordenados?
+      - O que é um coração com ritmo cardíaco alterado?
+      - O que é um coração com batimentos irregulares?
+      - O que é um coração com ritmo desregulado?
+      - O que é um coração com batimentos fora do normal?  
+
+  - intent: insuficiencia_cardiaca_inchaco
+    examples: |
+      - A insuficiência cardíaca pode causar inchaço no corpo?
+      - A insuficiência cardíaca pode levar a inchaço no corpo?
+      - Inchaço no corpo é um sintoma de insuficiência cardíaca?
+      - A insuficiência cardíaca causa retenção de líquidos e inchaço?
+      - O coração fraco pode causar inchaço no corpo?
+      - Inchaço nas pernas pode ser causado por insuficiência cardíaca?
+      - A insuficiência cardíaca pode deixar o corpo inchado?
+      - Inchaço no corpo é comum em quem tem insuficiência cardíaca?
+      - A insuficiência cardíaca pode causar edema no corpo?
+      - O coração não funcionando direito pode causar inchaço?
+      - Inchaço no corpo pode ser um sinal de problema cardíaco?
+      - A insuficiência cardíaca pode causar inchaço nas pernas e pés?
+      - O coração fraco pode levar a inchaço no corpo?
+      - Inchaço no corpo é um dos sintomas da insuficiência cardíaca?
+      - A insuficiência cardíaca pode causar inchaço abdominal?
+      - O coração com problemas pode causar retenção de líquidos e inchaço?
+      - Inchaço no corpo pode ser causado por falha cardíaca?
+      - A insuficiência cardíaca pode causar inchaço generalizado?
+      - O coração não bombeando direito pode causar inchaço?
+      - Inchaço no corpo é um efeito da insuficiência cardíaca?
+      - A insuficiência cardíaca pode causar inchaço nas extremidades?
+
+  - intent: cansaco_falta_de_ar_oque_fazer
+    examples: |
+      - O que fazer se sentir cansaço excessivo e falta de ar?
+      - O que devo fazer se estiver com muito cansaço e falta de ar?
+      - Cansaço excessivo e dificuldade para respirar, o que fazer?
+      - Se eu sentir cansaço extremo e falta de ar, qual é o próximo passo?
+      - O que fazer ao sentir fadiga intensa e respiração difícil?
+      - Cansaço e falta de ar são preocupantes? O que devo fazer?
+      - O que fazer quando sinto cansaço fora do normal e falta de ar?
+      - Se eu tiver cansaço excessivo e dificuldade para respirar, o que devo fazer?
+      - O que fazer em caso de cansaço extremo e sensação de falta de ar?
+      - Cansaço excessivo e falta de ar são sinais de alerta? O que fazer?
+      - O que fazer se eu estiver me sentindo muito cansado e com respiração pesada?
+      - Cansaço e falta de ar: o que isso pode ser e o que devo fazer?
+      - O que fazer ao perceber cansaço excessivo e dificuldade para respirar?
+      - Se eu sentir cansaço extremo e falta de ar, devo procurar um médico?
+      - O que fazer se estiver com fadiga intensa e respiração difícil?
+      - Cansaço excessivo e falta de ar: quais são os primeiros passos?
+      - O que fazer ao sentir cansaço fora do comum e falta de ar?
+      - Cansaço e falta de ar são sintomas graves? O que fazer?
+      - O que fazer se eu estiver com cansaço extremo e dificuldade para respirar?
+      - Cansaço excessivo e falta de ar: como devo agir?
+      - O que fazer ao sentir cansaço intenso e sensação de falta de ar?    
+
+  - intent: dificuldade_respirar_insuficiencia_cardiaca    
+    examples: |
+      - Dificuldade para respirar pode ser um sinal de insuficiência cardíaca?  
+      - A falta de ar pode indicar insuficiência cardíaca?  
+      - Se eu estiver com problemas para respirar, pode ser por causa do coração?  
+      - A insuficiência cardíaca causa dificuldade respiratória?  
+      - Problemas para respirar são comuns em casos de insuficiência cardíaca?  
+      - A falta de ar está relacionada à insuficiência cardíaca?  
+      - Dificuldade em respirar pode ser um sintoma de problema cardíaco?  
+      - A insuficiência cardíaca pode levar à sensação de falta de ar?  
+      - Se eu sentir que não consigo respirar direito, pode ser algo no coração?  
+      - A respiração difícil é um sintoma de insuficiência cardíaca?  
+      - Problemas cardíacos podem causar dificuldade para respirar?  
+      - A insuficiência cardíaca tem a ver com falta de ar?  
+      - Dificuldade respiratória pode ser causada por problemas no coração?  
+      - Falta de ar é um sinal de que o coração não está funcionando bem?  
+      - Se eu tiver falta de ar, devo me preocupar com insuficiência cardíaca?  
+      - A insuficiência cardíaca pode dificultar a respiração?  
+      - Dificuldade para respirar pode estar ligada a problemas cardíacos?  
+      - A falta de ar é um sintoma comum da insuficiência cardíaca?  
+      - Problemas para respirar podem ser causados por insuficiência cardíaca?  
+      - A insuficiência cardíaca pode causar sensação de respiração pesada?  
+
   - intent: doenca_angina
     examples: |
       - O que é angina e como posso identificá-la?
@@ -158,16 +277,6 @@ nlu:
       - Como a angina se manifesta no corpo?
       - O que posso fazer para saber se estou tendo angina?
       - O que indica que é angina e não outra dor no peito?
-      - Como identificar os sintomas mais comuns da angina?
-      - Como posso perceber que é angina e não outra dor?
-      - Como posso saber se estou tendo uma crise de angina ou infarto?
-      - Quais são as diferenças entre angina e outros tipos de dor no peito?
-      - Como identificar angina nos primeiros sintomas?
-      - O que posso sentir quando estou com angina?
-      - Quais são as sensações que indicam que estou com angina?
-      - A angina tem algum sintoma específico que a distingue de outras doenças?
-      - Como reconhecer se é uma dor de angina ou outra dor torácica?
-      - Como identificar angina em mulheres? Os sintomas são diferentes?
 
   - intent: doenca_cardiomiopatia
     examples: |
@@ -199,18 +308,6 @@ nlu:
       - A cardiomiopatia é fácil de diagnosticar?
       - Como a cardiomiopatia afeta a circulação sanguínea?
       - Quais são os primeiros sinais de que pode ser cardiomiopatia?
-      - Como a cardiomiopatia pode ser identificada antes de uma crise?
-      - Quais os principais sintomas da cardiomiopatia no começo?
-      - A cardiomiopatia pode causar falta de ar?
-      - Como posso perceber que estou com cardiomiopatia sem fazer exames?
-      - Quais sintomas de cardiomiopatia são mais comuns em mulheres?
-      - O que causa a cardiomiopatia e quais sintomas são mais frequentes?
-      - A cardiomiopatia pode causar dor no peito?
-      - Como a cardiomiopatia afeta o funcionamento do coração?
-      - Quais sintomas indicam que uma pessoa tem cardiomiopatia?
-      - Quais são as diferenças entre cardiomiopatia e outras doenças cardíacas?
-      - Como a cardiomiopatia interfere no meu batimento cardíaco?
-      - O que devo fazer se sentir sintomas de cardiomiopatia?
 
   - intent: doenca_hipertensao
     examples: |
@@ -248,16 +345,6 @@ nlu:
       - Como a hipertensão pode afetar a elasticidade das artérias?
       - A pressão alta pode levar a um ataque cardíaco?
       - Quais os sintomas no coração causados pela hipertensão?
-      - Como saber se a hipertensão está prejudicando meu coração?
-      - A hipertensão afeta a função do coração diretamente?
-      - Como a pressão alta contribui para o endurecimento das artérias?
-      - O que a hipertensão faz nas paredes do coração?
-      - A pressão alta pode causar aumento do coração?
-      - O que acontece com as artérias quando a pressão é alta por muito tempo?
-      - A hipertensão pode causar falta de ar e problemas cardíacos?
-      - Como a hipertensão pode levar a uma insuficiência cardíaca?
-      - A hipertensão pode ser silenciosa, mas ainda assim afetar o coração?
-      - Quais são os riscos de ter hipertensão na velhice para o coração?
 
   - intent: danos_doencas_cardiacas
     examples: |
@@ -289,16 +376,6 @@ nlu:
       - Como doenças cardíacas mal tratadas podem afetar o funcionamento do coração?
       - O que acontece com as artérias se doenças cardíacas não forem tratadas?
       - Como a falta de cuidado com doenças cardíacas pode afetar o organismo todo?
-      - Quais as complicações que podem surgir se a doença cardíaca for negligenciada?
-      - Quais as consequências de não tratar doenças cardíacas logo no começo?
-      - Se uma pessoa não tratar doenças cardíacas, o que pode acontecer ao longo do tempo?
-      - Quais danos permanentes podem ocorrer no coração sem o tratamento adequado?
-      - Como doenças cardíacas mal tratadas afetam o sistema circulatório?
-      - O que ocorre no organismo se doenças cardíacas não forem tratadas a tempo?
-      - Como a falta de controle nas doenças cardíacas pode causar problemas graves?
-      - Quais os efeitos a longo prazo de doenças cardíacas mal tratadas?
-      - Como doenças cardíacas podem afetar a vida de uma pessoa a longo prazo se não tratadas?
-      - O que acontece quando a pessoa negligencia o tratamento de doenças cardíacas?
 
   - intent: efeitos_doencas_cardiacas
     examples: |
@@ -335,16 +412,6 @@ nlu:
       - Como as doenças cardíacas afetam a memória e concentração?
       - Como as doenças do coração afetam o bem-estar geral do corpo?
       - O que pode acontecer com o metabolismo em pessoas com doenças cardíacas?
-      - Como doenças cardíacas podem interferir na função renal?
-      - Como o mau funcionamento do coração pode prejudicar a digestão?
-      - De que forma doenças cardíacas podem afetar a saúde mental?
-      - Quais os efeitos das doenças cardíacas nas pernas e circulação periférica?
-      - Como o coração fraco pode afetar o resto do corpo?
-      - Quais as consequências das doenças cardíacas no sistema respiratório?
-      - Como o estresse gerado pelas doenças cardíacas pode afetar o corpo?
-      - Quais complicações respiratórias podem surgir devido a problemas cardíacos?
-      - Como a insuficiência cardíaca pode afetar outros órgãos?
-      - Quais doenças podem ser causadas nos rins devido a problemas no coração?
 
   - intent: exames_sangue
     examples: |
@@ -379,16 +446,6 @@ nlu:
       - Como os exames de sangue ajudam a identificar o risco de AVC?
       - Quais análises de sangue são importantes para detectar dislipidemia?
       - Quais exames de sangue ajudam a avaliar os níveis de glicose no sangue e o risco de diabetes?
-      - Como os exames de sangue podem ajudar no diagnóstico de hipertensão pulmonar?
-      - Quais são os exames mais importantes de sangue para a saúde do coração?
-      - Quais exames de sangue são usados para medir a função renal no contexto de doenças cardíacas?
-      - Quais testes de sangue ajudam a verificar o risco de formação de coágulos?
-      - Como os exames de sangue ajudam a avaliar a função hepática em pacientes com problemas cardíacos?
-      - Quais exames de sangue são necessários para detectar síndrome metabólica?
-      - Quais exames de sangue ajudam a determinar a presença de inflamação no corpo que pode afetar o coração?
-      - Quais exames de sangue são feitos para verificar o risco de aterosclerose?
-      - Como os exames de sangue podem indicar a necessidade de intervenção no coração?
-      - Quais testes de sangue podem indicar problemas com as válvulas cardíacas?
       
   - intent: segunda_opiniao_medica
     examples: |
@@ -423,16 +480,6 @@ nlu:
       - Como funciona a segunda opinião médica no aplicativo?
       - Eu consigo uma segunda opinião médica via app mesmo sem estar com o diagnóstico fechado?
       - Posso usar o app para conseguir uma segunda opinião sobre um tratamento?
-      - Como eu faço pra validar meu diagnóstico com outro médico no app?
-      - No app tem como verificar com outro médico o meu diagnóstico?
-      - Posso acessar outro especialista através do aplicativo?
-      - Eu consigo um parecer de outro médico sobre meu tratamento pelo app?
-      - Dá pra buscar uma segunda opinião de outro médico pelo app?
-      - O app tem algum médico que oferece segunda opinião?
-      - Tem como pedir ajuda de outro médico no app para uma segunda opinião?
-      - Como faço para buscar uma segunda opinião médica em um especialista pelo app?
-      - Consigo saber a opinião de outro médico no app?
-      - O aplicativo tem alguma opção para consultar um médico diferente sobre o diagnóstico?
 
   - intent: avisos_medicamento
     examples: |
@@ -469,16 +516,6 @@ nlu:
       - O app pode ser utilizado para gerenciar dispositivos médicos, como marcapassos?
       - O aplicativo inclui funcionalidades para monitorar e gerenciar marcapassos?
       - Posso usar o app para controlar o funcionamento de marcapassos e outros dispositivos médicos?
-      - O aplicativo oferece algum alerta pra quando eu tenho que tomar o remédio?
-      - Como o app me avisa sobre meus horários de remédio?
-      - Dá pra configurar no app alertas pra tomar medicamento?
-      - O app me lembra de tomar os remédios na hora certa?
-      - Posso configurar um alerta pra tomar meu remédio no aplicativo?
-      - O app tem como me avisar quando eu preciso ir no médico?
-      - Como configurar no app lembrete de consulta médica?
-      - O aplicativo pode me lembrar das consultas médicas e remédios?
-      - Tem como agendar no app lembrete de consulta e de tomar remédio?
-      - O app avisa quando for a hora de eu tomar meus medicamentos?
 
   - intent: dietas_saudaveis
     examples: |
@@ -510,16 +547,6 @@ nlu:
       - O aplicativo sugere alimentos que ajudam a controlar a pressão arterial?
       - O app tem alguma lista de alimentos que fazem bem pro coração?
       - No app tem dicas pra melhorar a alimentação e cuidar do coração?
-      - O app pode sugerir receitas saudáveis pra o coração?
-      - Dá pra achar receitas pro coração no app?
-      - O app tem sugestões de refeições que fazem bem pro coração?
-      - No aplicativo tem dicas sobre o que comer pra evitar problemas cardíacos?
-      - O app tem planos alimentares pra melhorar a circulação sanguínea?
-      - O aplicativo dá conselhos sobre o que comer pra ter um coração saudável?
-      - Como o app me ajuda com a alimentação saudável pro coração?
-      - O app sugere cardápios pra quem tem risco de doenças cardíacas?
-      - O aplicativo tem dietas que ajudam a controlar o colesterol?
-      - O app oferece alimentos que ajudam na prevenção de doenças cardíacas?
 
   - intent: niveis_colesterol
     examples: |
@@ -551,16 +578,6 @@ nlu:
       - Posso controlar meus níveis de colesterol com esse aplicativo?
       - O app tem como registrar os níveis de colesterol?
       - Dá pra usar o app pra controlar o colesterol e triglicerídeos com mais facilidade?
-      - O app me avisa quando meu colesterol tá muito alto?
-      - Como o aplicativo me ajuda a monitorar o colesterol e triglicerídeos?
-      - Tem como o aplicativo me alertar sobre níveis altos de colesterol e triglicerídeos?
-      - O app armazena os meus exames de colesterol e triglicerídeos?
-      - Eu posso ter um histórico do meu colesterol e triglicerídeos no app?
-      - O app faz acompanhamento do colesterol com base nos meus exames?
-      - Dá pra comparar os resultados dos exames de colesterol e triglicerídeos no app?
-      - O app serve pra me ajudar a controlar meu colesterol em tempo real?
-      - O app me avisa se meus níveis de colesterol estão acima do normal?
-      - Posso ver se os meus triglicerídeos estão controlados com o app?
 
   - intent: compartilhar_com_medico
     examples: |
@@ -595,16 +612,6 @@ nlu:
       - Dá pra enviar um relatório médico pro médico direto no app?
       - O app tem como enviar meus dados médicos sem que ninguém veja?
       - Posso compartilhar meu histórico de saúde com o médico de forma segura no app?
-      - O app tem algum recurso de privacidade para garantir o sigilo dos meus dados médicos?
-      - Posso compartilhar resultados de exames com meu médico de maneira fácil pelo app?
-      - O aplicativo tem como garantir que o compartilhamento com o médico é seguro?
-      - O app tem como compartilhar os meus resultados de exames em tempo real com o médico?
-      - Posso compartilhar com meu médico as atualizações do meu estado de saúde pelo app?
-      - O aplicativo permite o envio dos meus dados médicos de forma rápida e direta ao médico?
-      - Dá pra mandar os resultados de exames e outros dados médicos pro meu médico usando o app?
-      - Como faço pra mandar os resultados dos meus exames pro médico diretamente do app?
-      - O app me deixa mandar as informações médicas pros médicos de maneira simples?
-      - O app tem alguma maneira de mandar meus exames diretamente pra consulta médica?
 
   - intent: sugerir_diagnostico
     examples: |
@@ -642,16 +649,6 @@ nlu:
       - Que tipo de doenças o app pode diagnosticar, como doenças do coração?
       - O aplicativo tem a capacidade de sugerir diagnósticos de doenças graves?
       - O app consegue sugerir condições como infarto ou hipertensão?
-      - O aplicativo oferece diagnósticos de doenças como asma ou bronquite?
-      - O app pode sugerir diagnósticos para doenças respiratórias graves?
-      - O app pode sugerir diagnósticos de problemas de saúde mental, como depressão?
-      - O app sugere doenças relacionadas ao sistema digestivo?
-      - O aplicativo tem como sugerir doenças do fígado ou pâncreas?
-      - O app pode sugerir diagnósticos sobre problemas renais?
-      - O aplicativo pode sugerir diagnósticos para problemas de obesidade?
-      - O app tem diagnósticos para condições relacionadas à saúde digestiva?
-      - O aplicativo pode sugerir diagnósticos para doenças autoimunes?
-      - O app tem capacidade de sugerir diagnósticos para doenças infecciosas?
 
   - intent: monitorar_pressao
     examples: |
@@ -686,16 +683,6 @@ nlu:
       - Dá pra usar o aplicativo pra registrar e controlar minha pressão e pulsação?
       - O app oferece recursos para controlar a pressão arterial e o ritmo cardíaco?
       - Posso usar o aplicativo para controlar minha pressão e batimentos cardíacos?
-      - O app pode fazer um monitoramento completo da minha pressão arterial?
-      - O aplicativo ajuda no acompanhamento da minha pressão arterial e batimentos?
-      - O app consegue registrar minha pressão e frequência cardíaca em diferentes horários?
-      - O aplicativo tem um recurso para medir e controlar a pressão arterial?
-      - O app consegue identificar alterações na minha pressão e batimentos?
-      - O aplicativo pode me avisar se minha pressão arterial está alta ou baixa?
-      - O app tem como verificar minha pressão arterial e pulsação automaticamente?
-      - O aplicativo consegue monitorar minha pressão e batimentos em tempo real?
-      - O app pode fornecer relatórios sobre a minha pressão arterial e pulsação?
-      - O aplicativo consegue medir a pressão arterial e registrar os batimentos cardíacos?
 
   - intent: exame_ecg
     examples: |
@@ -729,16 +716,6 @@ nlu:
       - O ECG pode ajudar a identificar falhas no funcionamento do coração?
       - O que um eletrocardiograma ajuda a descobrir no seu coração?
       - O que o ECG pode mostrar sobre a saúde do seu sistema cardiovascular?
-      - O exame de ECG pode detectar problemas cardíacos que não aparecem em outros exames?
-      - Como o ECG pode ser usado para verificar se há alguma lesão no coração?
-      - O exame de ECG pode ajudar a monitorar a recuperação de doenças cardíacas?
-      - Para que serve um exame ECG e como ele pode ser útil na prevenção de doenças cardíacas?
-      - O ECG serve para detectar problemas no coração, como arritmias e infarto?
-      - O que um exame de ECG pode dizer sobre o funcionamento do coração?
-      - Como funciona o exame de ECG e o que ele pode revelar sobre o coração?
-      - O ECG pode ser usado para diagnosticar insuficiência cardíaca?
-      - Qual é a utilidade de um ECG no diagnóstico de doenças do coração?
-      - Como o ECG pode ser utilizado para monitorar a evolução de doenças cardíacas?
 
   - intent: estresse_afeta_saude
     examples: |
@@ -774,16 +751,6 @@ nlu:
       - O estresse afeta a saúde do coração? Como posso evitar os danos?
       - Como controlar a ansiedade e o estresse para proteger o coração?
       - Como o estresse contribui para o aumento da pressão arterial e doenças do coração?
-      - O estresse é um dos principais fatores de risco para problemas cardíacos?
-      - Como o estresse pode afetar a capacidade do coração de bombear sangue adequadamente?
-      - O que é mais perigoso para o coração: o estresse ou a pressão alta?
-      - Como controlar o estresse para reduzir o risco de um AVC ou infarto?
-      - O estresse pode ser mais prejudicial que o sedentarismo para o coração?
-      - Quais são as técnicas mais eficazes para reduzir o estresse e proteger o coração?
-      - Como o estresse pode afetar a saúde do sistema circulatório e o coração?
-      - Como controlar o estresse no dia a dia para evitar doenças cardíacas?
-      - O estresse pode causar dores no peito? O que fazer?
-      - Como o estresse influencia no aumento do risco de aterosclerose?
 
   - intent: exames_detecta_doencas_cardiacas
     examples: |
@@ -821,17 +788,6 @@ nlu:
       - O que o exame de ultrassom do coração pode identificar?
       - Como o exame de holter pode ajudar no diagnóstico de doenças cardíacas?
       - Quais são os exames recomendados para quem tem histórico de doenças no coração?
-      - O exame de pressão arterial pode ajudar a detectar problemas cardíacos?
-      - O que o teste de colesterol e triglicerídeos pode revelar sobre a saúde do coração?
-      - Quais exames de laboratório ajudam a identificar doenças cardíacas?
-      - Como o exame de tomografia pode detectar doenças no coração?
-      - O que é um exame de ressonância magnética cardíaca e como ele funciona?
-      - Quais exames podem diagnosticar doenças arteriais coronárias?
-      - O que a cintilografia cardíaca pode revelar sobre a saúde do coração?
-      - O que é o teste de provocação farmacológica e como ele ajuda a diagnosticar problemas cardíacos?
-      - Quais exames de diagnóstico são usados para avaliar a função do coração?
-      - Como é feito o diagnóstico de infarto com exames médicos?
-      - O exame de estresse é eficaz para detectar problemas cardíacos? Como ele funciona?
 
   - intent: riscos_doencas_cardiacas
     examples: |
@@ -869,16 +825,6 @@ nlu:
       - O que posso fazer para reduzir o risco de doenças cardíacas na menopausa?
       - Quais comportamentos saudáveis posso adotar para reduzir os riscos cardíacos?
       - Como o estresse influencia nas doenças do coração e o que fazer para reduzi-lo?
-      - Quais são os riscos de doenças cardíacas que podem ser prevenidos com atividades físicas?
-      - O que é mais importante para controlar os riscos de doenças cardíacas: dieta ou exercícios?
-      - Como melhorar minha qualidade de vida para reduzir o risco de doenças do coração?
-      - O que posso fazer para controlar a inflamação no corpo e reduzir os riscos cardíacos?
-      - Como o sedentarismo afeta o risco de doenças cardíacas e como posso mudar isso?
-      - O que posso fazer para controlar meu peso e evitar doenças cardíacas?
-      - Quais fatores de risco posso modificar para prevenir doenças cardiovasculares?
-      - Como controlar a alimentação para diminuir o risco de doenças cardíacas?
-      - Quais hábitos posso adotar para melhorar a saúde do meu coração?
-      - Como controlar a ansiedade e diminuir os riscos de doenças cardíacas?
 
   - intent: sinais_alerta_infarto_miocardio
     examples: |
@@ -913,16 +859,6 @@ nlu:
       - Quais os sintomas que podem indicar um infarto?
       - Eu posso sentir um infarto de maneira diferente de outras pessoas?
       - O infarto do miocárdio tem sinais diferentes dependendo da pessoa?
-      - Como saber se estou tendo infarto ou só uma má digestão?
-      - Qual o sintoma mais comum de infarto do miocárdio?
-      - Quais são os sintomas menos conhecidos do infarto?
-      - A dor no peito é sempre acompanhada de outros sintomas de infarto?
-      - Quais sintomas indicam infarto em mulheres?
-      - Como saber se é um infarto ou só uma indigestão?
-      - Quais sinais me indicam que meu coração está em perigo?
-      - Como saber se a dor no peito é infarto ou ansiedade?
-      - Quando a dor no peito se torna um sinal de infarto?
-      - O que fazer se tiver dor no peito e dificuldades para respirar?
 
   - intent: sinais_sintomas_doencas_cardiacas
     examples: |
@@ -957,16 +893,6 @@ nlu:
       - Quais sintomas indicam que devo procurar um médico para problemas cardíacos?
       - Como saber se estou tendo uma crise cardíaca ou só um cansaço?
       - Quais sinais o coração dá quando está com problemas?
-      - Como saber se a dor no peito é do coração ou outra coisa?
-      - O que é sinal de que o coração não vai bem?
-      - Como saber se o sintoma é grave e pode ser relacionado ao coração?
-      - Se tiver falta de ar, pode ser problema no coração?
-      - Dor no peito é sempre sinal de problema no coração?
-      - Como o coração reage a doenças?
-      - Se sentir dores no peito e falta de ar, pode ser doença no coração?
-      - Quais sinais podem ser um alerta para doenças no coração?
-      - Sinto uma dor no peito, deve ser um sinal de doença cardíaca?
-      - Como saber se estou com doença no coração sem dor no peito?
 
   - intent: sintomas_insuficiencia_cardiaca
     examples: |
@@ -995,25 +921,12 @@ nlu:
       - O que fazer se perceber sinais de insuficiência cardíaca?
       - Insuficiência cardíaca pode causar falta de ar, é isso?
       - Quais são os sintomas mais comuns de insuficiência cardíaca?
-      - Se eu tiver dificuldade para respirar, pode ser insuficiência cardíaca?
       - Como a insuficiência cardíaca afeta o corpo?
       - O que sentir quando estou com insuficiência cardíaca?
       - Insuficiência cardíaca pode causar inchaço nas pernas, é normal?
       - Como a insuficiência cardíaca pode se manifestar?
       - Quais os sintomas de insuficiência cardíaca nas pernas?
-      - O que fazer se sentir cansaço excessivo e falta de ar?
-      - A insuficiência cardíaca pode causar inchaço no corpo?
-      - Como a insuficiência cardíaca afeta os pulmões?
-      - O que fazer quando tenho dificuldades para respirar por causa da insuficiência cardíaca?
-      - Como posso saber se meu coração não está conseguindo bombear corretamente?
-      - O que é um sintoma comum de insuficiência cardíaca?
-      - Como a insuficiência cardíaca afeta a respiração?
-      - Se eu tiver cansaço muito rápido, pode ser insuficiência cardíaca?
-      - Quais são os sintomas mais graves de insuficiência cardíaca congestiva?
-      - Insuficiência cardíaca pode me fazer sentir tontura ou falta de equilíbrio?
-      - Como saber se a falta de ar é causada por insuficiência cardíaca?
-      - Quando o inchaço nas pernas é sinal de insuficiência cardíaca?
-      
+         
   - intent: tratamentos_arritmias_cardiacas
     examples: |
       - Quais são os tratamentos disponíveis para arritmias cardíacas?
@@ -1050,16 +963,6 @@ nlu:
       - Tem algum remédio que resolve arritmia cardíaca de forma rápida?
       - O tratamento de arritmia pode incluir só mudanças no estilo de vida?
       - Posso controlar minha arritmia apenas com alimentação saudável?
-      - Qual a melhor forma de tratar a arritmia cardíaca em idosos?
-      - Tem tratamento pra arritmia cardíaca que não precise de cirurgia?
-      - Existe algum tratamento caseiro para arritmia?
-      - Quais são os tratamentos mais modernos para arritmias cardíacas?
-      - A cardioversão é eficaz para tratar arritmias cardíacas?
-      - O que é cardioversão e como ela trata as arritmias?
-      - Como faço pra saber se meu tratamento de arritmia está funcionando?
-      - O que é a ablação cardíaca e como ela ajuda a tratar a arritmia?
-      - O tratamento de arritmia com ablação é perigoso?
-      - O que é mais indicado: medicamentos ou cirurgia pra arritmia cardíaca?
 
   - intent: habitos_para_melhorar_saude
     examples: |
@@ -1095,16 +998,6 @@ nlu:
       - Como melhorar a saúde do coração com dieta saudável?
       - Que alimentos são bons pra manter o coração em forma?
       - O que fazer pra melhorar a circulação e proteger o coração?
-      - Como a prática de exercícios pode ajudar na saúde do coração?
-      - Como melhorar a saúde cardíaca com uma alimentação balanceada?
-      - O que posso comer pra deixar o meu coração mais saudável?
-      - Como aumentar a saúde do meu coração sem sair de casa?
-      - Quais são os hábitos que mais ajudam a prevenir doenças cardíacas?
-      - Como deixar o coração mais forte com atitudes no dia a dia?
-      - O que fazer pra evitar doenças cardíacas com hábitos saudáveis?
-      - Como manter o coração saudável com alimentação e exercício físico?
-      - O que melhorar nos meus hábitos pra proteger o coração?
-      - Como a atividade física contribui pra saúde do coração?
 
   - intent: exercicios_coracao
     examples: |
@@ -1140,15 +1033,6 @@ nlu:
       - Como a caminhada ajuda a fortalecer o coração?
       - Qual é o exercício ideal para quem tem o coração fraco?
       - Exercícios de intensidade alta são bons pra saúde do coração?
-      - Quais atividades físicas previnem doenças cardíacas?
-      - É verdade que correr pode fortalecer o coração?
-      - Quais exercícios eu posso fazer sem ir à academia pra melhorar meu coração?
-      - Fazer yoga é bom pra saúde do coração?
-      - Quais atividades simples posso fazer pra fortalecer meu coração?
-      - Fazer bicicleta é bom pro coração?
-      - Quais exercícios posso fazer pra melhorar a saúde cardiovascular e perder peso?
-      - Quais são os melhores exercícios para quem tem problemas cardíacos?
-      - Como nadar pode ajudar no fortalecimento do coração?
       
   - intent: recomendacoes_autocuidado
     examples: |
@@ -1179,16 +1063,6 @@ nlu:
       - O app dá orientações específicas sobre autocuidado com base no meu diagnóstico de saúde?
       - Como o aplicativo sugere melhorar minha saúde com dicas de autocuidado, conforme meu diagnóstico?
       - O app oferece práticas de autocuidado feitas sob medida para meu estado de saúde?
-      - O aplicativo me oferece sugestões sobre como melhorar minha saúde de forma personalizada?
-      - Quais cuidados de autocuidado o app recomenda para minha saúde, levando em conta meu diagnóstico?
-      - O app pode me ajudar a melhorar minha saúde com dicas personalizadas de autocuidado?
-      - O aplicativo oferece planos de autocuidado com base na minha condição de saúde?
-      - O app personaliza as dicas de autocuidado conforme meu diagnóstico de saúde?
-      - Quais cuidados posso tomar, conforme o diagnóstico, com as sugestões do app?
-      - O aplicativo adapta as orientações de autocuidado de acordo com meu diagnóstico de saúde?
-      - Como posso seguir as dicas de autocuidado recomendadas no aplicativo para melhorar minha saúde?
-      - O app tem sugestões de autocuidado que atendem ao meu quadro clínico específico?
-      - O aplicativo me mostra como cuidar melhor da minha saúde com base no diagnóstico feito?
 
   - intent: seguranca_informacoes_saude
     examples: |
@@ -1224,16 +1098,6 @@ nlu:
       - O aplicativo oferece segurança suficiente para os meus dados médicos pessoais?
       - Quais cuidados o app toma pra proteger meus dados médicos pessoais?
       - Quais proteções o app tem contra vazamento de dados de saúde?
-      - O app tem algum tipo de proteção contra hackers que tentem acessar meus dados de saúde?
-      - Eu posso confiar que meus dados médicos estão seguros no app?
-      - O app garante a proteção da minha privacidade em relação aos dados de saúde?
-      - O app é seguro pra guardar minhas informações médicas de forma confidencial?
-      - O aplicativo usa autenticação de dois fatores para proteger meus dados de saúde?
-      - Como o aplicativo impede que outras pessoas acessem meus dados de saúde?
-      - O app tem protocolos de segurança pra garantir que meus dados não sejam acessados sem minha permissão?
-      - O app é protegido contra acessos não autorizados aos meus dados de saúde?
-      - É seguro salvar minhas informações médicas pessoais no app?
-      - Eu posso confiar que o app não vai compartilhar minhas informações de saúde com outras pessoas?
       
   - intent: clinicas_proximas
     examples: |
@@ -1267,16 +1131,6 @@ nlu:
       - O aplicativo tem uma funcionalidade de busca por clínicas próximas que tratem minha condição?
       - Como é possível procurar clínicas próximas que tratam minha condição usando o app?
       - O app é bom pra achar clínicas perto de mim que tratem minha condição?
-      - Posso buscar clínicas próximas que atendem minha condição pelo app?
-      - O aplicativo me ajuda a encontrar clínicas especializadas pra minha condição perto de mim?
-      - O app me ajuda a encontrar clínicas de tratamento pra minha condição perto de mim?
-      - Como posso achar clínicas com tratamento pra minha condição pelo app?
-      - Posso localizar clínicas que atendem a minha condição pelo app?
-      - O aplicativo tem uma funcionalidade de busca por clínicas próximas?
-      - O app me ajuda a encontrar clínicas que ofereçam o tratamento pra minha condição?
-      - O app ajuda a achar clínicas que tratam minha doença perto de mim?
-      - Como fazer pra achar clínicas próximas que tratem minha doença através do app?
-      - O app tem uma função que encontra clínicas que tratam minha condição?
 
   - intent: dados_saude_coletados
     examples: |
@@ -1309,16 +1163,6 @@ nlu:
       - O app coleta minhas informações de saúde, mas como elas são aproveitadas?
       - O que o app faz com as informações de saúde que coleta?
       - O app coleta quais dados sobre saúde e qual é o uso deles?
-      - O app coleta dados médicos, mas como esses dados são utilizados?
-      - O aplicativo coleta quais informações e como elas são tratadas?
-      - Quais dados de saúde são armazenados pelo app e qual a finalidade disso?
-      - O app coleta dados de saúde, como isso ajuda no meu tratamento?
-      - Como o app utiliza os dados que coleta sobre minha saúde?
-      - Quais dados médicos são coletados pelo app e o que é feito com eles?
-      - O aplicativo armazena informações de saúde, como isso afeta meu tratamento?
-      - O aplicativo coleta meus dados de saúde, mas quais são as finalidades disso?
-      - Como o aplicativo usa as informações de saúde que ele coleta?
-      - O app armazena dados de saúde, mas como eles são usados depois?
 
   - intent: risco_de_ter_doencas_cardiacas
     examples: |
@@ -1353,13 +1197,363 @@ nlu:
       - Tem alguma forma de saber se sou vulnerável a doenças no coração?
       - Como sei se estou com risco de ter problemas cardíacos?
       - Quais fatores no meu corpo indicam risco de doença cardíaca?
-      - Como descobrir se tenho mais chances de ter doenças no coração?
-      - Como saber se tenho predisposição para problemas cardíacos?
-      - Quais coisas posso fazer para saber se estou em risco de doença do coração?
-      - Como identificar se estou mais propenso a ter problemas cardíacos?
-      - O que pode mostrar que estou com risco de ter problemas no coração?
-      - Como posso descobrir se estou em risco de desenvolver doenças no coração?
-      - Quais exames posso fazer para saber se estou em risco de doenças cardíacas?
-      - Quais sinais indicam que eu posso ter chances de desenvolver problemas no coração?
-      - Como saber se estou sujeito a desenvolver doenças cardíacas?
-      - Existe algum jeito de saber se sou vulnerável a doenças do coração?
+
+  - intent: sintomas_infarto
+    examples: |
+      - Quais são os sintomas de um infarto?
+      - Quais são os sinais de um infarto?
+      - Como saber se estou tendo um infarto?
+      - Quais são os principais sintomas de um ataque cardíaco?
+      - O que sente uma pessoa durante um infarto?
+      - Quais são os indícios de um infarto?
+      - Como identificar os sintomas de um infarto?
+      - Quais são os sintomas mais comuns de um ataque cardíaco?
+      - O que acontece no corpo durante um infarto?
+      - Quais são os alertas de um infarto?
+      - Como reconhecer os sintomas de um infarto?
+      - Quais são os sintomas de um infarto em mulheres?
+      - Quais são os sintomas de um infarto em homens?
+      - O que pode indicar que estou tendo um infarto?
+      - Quais são os sintomas de um infarto silencioso?
+      - Como é a dor de um infarto?
+      - Quais são os sintomas de um infarto fulminante?
+      - O que sente alguém que está infartando?
+      - Quais são os sintomas de um infarto agudo?
+      - Como saber se é um infarto ou apenas uma dor no peito?
+      - Quais são os sintomas de um infarto e o que fazer? 
+
+  - intent: dor_no_peito_serio
+    examples: |
+      - Como saber se minha dor no peito é algo sério?
+      - Como identificar se a dor no peito é grave?
+      - Quando a dor no peito é preocupante?
+      - Como saber se a dor no peito é um problema sério?
+      - O que diferencia uma dor no peito comum de uma grave?
+      - Como saber se a dor no peito é cardíaca?
+      - Quando devo me preocupar com dor no peito?
+      - Como saber se a dor no peito é um infarto?
+      - O que torna a dor no peito uma emergência?
+      - Como saber se a dor no peito é muscular ou cardíaca?
+      - Quando a dor no peito exige atenção médica?
+      - Como saber se a dor no peito é algo sério ou passageiro?
+      - O que fazer se a dor no peito for intensa?
+      - Como saber se a dor no peito é pulmonar?
+      - Quando a dor no peito é sinal de algo grave?
+      - Como diferenciar dor no peito de gases de algo sério?
+      - Como saber se a dor no peito é ansiedade ou problema cardíaco?
+      - O que fazer se a dor no peito persistir?
+      - Como saber se a dor no peito é um problema de saúde?
+      - Quando a dor no peito é um sinal de alerta?
+      - Como saber se a dor no peito é um AVC ou infarto?   
+  
+  - intent: tontura_problemas_cardiacos
+    examples: |
+      - Tontura pode ser relacionada a problemas cardíacos?
+      - Tontura é sinal de problema no coração?
+      - A tontura pode indicar doenças cardíacas?
+      - Tontura pode ser causada por problemas cardíacos?
+      - Tontura é um sintoma de insuficiência cardíaca?
+      - Tontura pode estar relacionada ao coração?
+      - Tontura é um sinal de arritmia cardíaca?
+      - Tontura pode ser causada por pressão alta?
+      - Tontura é um sintoma de infarto?
+      - Tontura pode ser sinal de problema cardiovascular?
+      - Tontura pode ser causada por baixa pressão arterial?
+      - Tontura é um sintoma de doença cardíaca?
+      - Tontura pode ser causada por problemas de circulação?
+      - Tontura pode ser um alerta de problema no coração?
+      - Tontura é comum em pacientes cardíacos?
+      - Tontura pode ser causada por batimentos cardíacos irregulares?
+      - Tontura pode ser um sintoma de angina?
+      - Tontura pode ser causada por problemas nas válvulas cardíacas?
+      - Tontura pode ser um sinal de AVC?
+      - Tontura pode ser causada por insuficiência cardíaca congestiva?
+      - Tontura pode ser um sintoma de embolia pulmonar?
+
+  - intent: falta_de_ar_doenca_cardiaca
+    examples: |
+      - Falta de ar é um sinal de doença no coração?
+      - Falta de ar pode ser causada por problemas cardíacos?
+      - Falta de ar é um sintoma de insuficiência cardíaca?
+      - Falta de ar pode indicar doença no coração?
+      - Falta de ar é sinal de problema cardiovascular?
+      - Falta de ar pode ser causada por arritmia cardíaca?
+      - Falta de ar é um sintoma de infarto?
+      - Falta de ar pode ser causada por pressão alta?
+      - Falta de ar é comum em pacientes cardíacos?
+      - Falta de ar pode ser um alerta de problema no coração?
+      - Falta de ar pode ser causada por insuficiência cardíaca?
+      - Falta de ar é um sintoma de angina?
+      - Falta de ar pode ser causada por problemas nas válvulas cardíacas?
+      - Falta de ar pode ser um sinal de embolia pulmonar?
+      - Falta de ar pode ser causada por doença coronariana?
+      - Falta de ar é um sintoma de cardiomiopatia?
+      - Falta de ar pode ser causada por hipertensão pulmonar?
+      - Falta de ar pode ser um sinal de AVC?
+      - Falta de ar pode ser causada por pericardite?
+      - Falta de ar pode ser um sintoma de endocardite?
+      - Falta de ar pode ser causada por problemas de circulação?
+
+  - intent: palpitacoes_significado
+    examples: |
+      - O que significa sentir palpitações?
+      - O que são palpitações cardíacas?
+      - O que causa palpitações no coração?
+      - O que significa sentir o coração acelerado?
+      - O que pode ser batimentos cardíacos irregulares?
+      - O que significa sentir o coração bater forte?
+      - O que pode causar sensação de palpitações?
+      - O que significa sentir o coração pulsando rápido?
+      - O que pode ser batimentos cardíacos desregulados?
+      - O que significa sentir o coração falhar?
+      - O que pode causar palpitações frequentes?
+      - O que significa sentir o coração bater fora do ritmo?
+      - O que pode ser sensação de coração acelerado?
+      - O que significa sentir o coração pulsando irregularmente?
+      - O que pode causar palpitações noturnas?
+      - O que significa sentir o coração bater descompassado?
+      - O que pode ser sensação de coração tremendo?
+      - O que significa sentir o coração bater rápido sem motivo?
+      - O que pode causar palpitações após esforço físico?
+      - O que significa sentir o coração bater de forma irregular?
+      - O que pode ser sensação de coração pulsando forte?   
+
+  - intent: fatores_risco_doencas_cardiacas
+    examples: |
+      - Quais são os principais fatores de risco para doenças cardíacas?
+      - O que aumenta o risco de doenças cardíacas?
+      - Quais são os maiores riscos para o coração?
+      - O que pode causar problemas no coração?
+      - Quais são os fatores que prejudicam a saúde cardíaca?
+      - O que contribui para doenças cardíacas?
+      - Quais são os principais riscos de problemas no coração?
+      - O que pode levar a doenças cardiovasculares?
+      - Quais são os fatores que aumentam o risco de infarto?
+      - O que pode causar insuficiência cardíaca?
+      - Quais são os hábitos que prejudicam o coração?
+      - O que aumenta as chances de ter um ataque cardíaco?
+      - Quais são os fatores de risco para o coração?
+      - O que pode causar doenças nas artérias do coração?
+      - Quais são os principais perigos para a saúde do coração?
+      - O que pode levar a problemas nas válvulas cardíacas?
+      - Quais são os fatores que causam doenças cardíacas?
+      - O que aumenta o risco de arritmia cardíaca?
+      - Quais são os principais motivos para doenças no coração?
+      - O que pode causar bloqueios nas artérias do coração?
+      - Quais são os fatores que levam a problemas cardiovasculares?
+
+  - intent: pressao_alta_problemas_coracao
+    examples: |
+      - Pressão alta pode causar problemas no coração?
+      - A hipertensão pode prejudicar o coração?
+      - Pressão alta afeta a saúde cardíaca?
+      - A pressão alta pode causar doenças no coração?
+      - A hipertensão pode levar a problemas cardíacos?
+      - Pressão alta é perigosa para o coração?
+      - A pressão alta pode causar infarto?
+      - A hipertensão pode causar insuficiência cardíaca?
+      - Pressão alta pode danificar o coração?
+      - A pressão alta pode causar arritmia cardíaca?
+      - A hipertensão pode levar a doenças cardiovasculares?
+      - Pressão alta pode causar problemas nas artérias do coração?
+      - A pressão alta pode causar angina?
+      - A hipertensão pode causar bloqueios nas artérias?
+      - Pressão alta pode causar AVC?
+      - A pressão alta pode causar problemas nas válvulas cardíacas?
+      - A hipertensão pode causar cardiomiopatia?
+      - Pressão alta pode causar morte súbita?
+      - A pressão alta pode causar falência cardíaca?
+      - A hipertensão pode causar trombose?
+      - Pressão alta pode causar aterosclerose?
+
+  - intent: colesterol_alto_perigoso_coracao
+    examples: |
+      - Colesterol alto é perigoso para o coração?
+      - O colesterol alto pode prejudicar o coração?
+      - Colesterol alto afeta a saúde cardíaca?
+      - O colesterol alto pode causar doenças no coração?
+      - Colesterol alto é um risco para o coração?
+      - O colesterol alto pode levar a problemas cardíacos?
+      - Colesterol alto pode causar infarto?
+      - O colesterol alto pode causar aterosclerose?
+      - Colesterol alto pode bloquear as artérias?
+      - O colesterol alto pode causar angina?
+      - Colesterol alto é perigoso para as artérias do coração?
+      - O colesterol alto pode causar insuficiência cardíaca?
+      - Colesterol alto pode causar arritmia cardíaca?
+      - O colesterol alto pode causar doenças cardiovasculares?
+      - Colesterol alto pode causar AVC?
+      - O colesterol alto pode causar trombose?
+      - Colesterol alto pode causar morte súbita?
+      - O colesterol alto pode causar bloqueios nas artérias?
+      - Colesterol alto pode causar problemas nas válvulas cardíacas?
+      - O colesterol alto pode causar cardiomiopatia?
+      - Colesterol alto pode causar falência cardíaca?
+
+  - intent: fumar_afeta_coracao
+    examples: |
+      - Fumar afeta o coração?
+      - O cigarro pode prejudicar o coração?
+      - Fumar causa problemas cardíacos?
+      - O tabagismo afeta a saúde do coração?
+      - Fumar pode causar doenças no coração?
+      - O cigarro pode levar a problemas cardíacos?
+      - Fumar aumenta o risco de infarto?
+      - O tabagismo pode causar aterosclerose?
+      - Fumar pode bloquear as artérias do coração?
+      - O cigarro pode causar insuficiência cardíaca?
+      - Fumar pode causar arritmia cardíaca?
+      - O tabagismo pode causar doenças cardiovasculares?
+      - Fumar pode causar AVC?
+      - O cigarro pode causar trombose?
+      - Fumar pode causar morte súbita?
+      - O tabagismo pode causar bloqueios nas artérias?
+      - Fumar pode causar problemas nas válvulas cardíacas?
+      - O cigarro pode causar cardiomiopatia?
+      - Fumar pode causar falência cardíaca?
+      - O tabagismo pode causar hipertensão?
+      - Fumar pode causar angina?
+
+  - intent: diabetes_risco_doencas_cardiacas
+    examples: |
+      - Diabetes aumenta o risco de doenças cardíacas?
+      - O diabetes pode prejudicar o coração?
+      - Diabetes afeta a saúde cardíaca?
+      - O diabetes pode causar doenças no coração?
+      - Diabetes é um risco para o coração?
+      - O diabetes pode levar a problemas cardíacos?
+      - Diabetes aumenta o risco de infarto?
+      - O diabetes pode causar aterosclerose?
+      - Diabetes pode bloquear as artérias do coração?
+      - O diabetes pode causar insuficiência cardíaca?
+      - Diabetes pode causar arritmia cardíaca?
+      - O diabetes pode causar doenças cardiovasculares?
+      - Diabetes pode causar AVC?
+      - O diabetes pode causar trombose?
+      - Diabetes pode causar morte súbita?
+      - O diabetes pode causar bloqueios nas artérias?
+      - Diabetes pode causar problemas nas válvulas cardíacas?
+      - O diabetes pode causar cardiomiopatia?
+      - Diabetes pode causar falência cardíaca?
+      - O diabetes pode causar hipertensão?
+      - Diabetes pode causar angina?
+
+  - intent: prevenir_doencas_cardiacas
+    examples: |
+      - Como posso prevenir doenças cardíacas?
+      - O que fazer para evitar doenças cardíacas?
+      - Como evitar problemas no coração?
+      - Quais são as melhores formas de prevenir doenças cardíacas?
+      - Como proteger o coração de doenças?
+      - O que posso fazer para reduzir o risco de doenças cardíacas?
+      - Como prevenir infarto e outros problemas cardíacos?
+      - Quais hábitos ajudam a prevenir doenças no coração?
+      - Como diminuir o risco de doenças cardiovasculares?
+      - O que é importante para a prevenção de doenças cardíacas?
+      - Como manter o coração saudável?
+      - Quais são os cuidados para prevenir doenças cardíacas?
+      - Como evitar aterosclerose e outros problemas cardíacos?
+      - O que fazer para prevenir insuficiência cardíaca?
+      - Como reduzir o risco de infarto e AVC?
+      - Quais são as dicas para prevenir doenças no coração?
+      - Como prevenir doenças cardíacas com hábitos saudáveis?
+      - O que evitar para prevenir problemas no coração?
+      - Como prevenir doenças cardíacas na terceira idade?
+      - Quais são os exames para prevenir doenças cardíacas?
+      - Como prevenir doenças cardíacas em jovens?    
+
+  - intent: melhor_dieta_coracao
+    examples: |
+      - Qual é a melhor dieta para o coração?
+      - O que comer para proteger o coração?
+      - Qual dieta é boa para a saúde cardíaca?
+      - Como deve ser a alimentação para o coração?
+      - Quais alimentos são bons para o coração?
+      - O que incluir na dieta para prevenir doenças cardíacas?
+      - Qual é a dieta ideal para o coração?
+      - Quais alimentos ajudam a manter o coração saudável?
+      - Como montar uma dieta saudável para o coração?
+      - O que evitar na dieta para proteger o coração?
+      - Quais são os melhores alimentos para o coração?
+      - Como a dieta mediterrânea ajuda o coração?
+      - Quais alimentos reduzem o risco de doenças cardíacas?
+      - O que comer para diminuir o colesterol e proteger o coração?
+      - Quais são os alimentos que prejudicam o coração?
+      - Como a dieta pode prevenir infarto e AVC?
+      - Quais são os nutrientes essenciais para o coração?
+      - Como uma dieta balanceada protege o coração?
+      - Quais são os alimentos ricos em ômega-3 e seus benefícios para o coração?
+      - Como reduzir o sódio na dieta para proteger o coração?
+      - Quais são os melhores hábitos alimentares para o coração?
+
+  - intent: exercicios_protegem_coracao
+    examples: |
+      - Exercícios físicos ajudam a proteger o coração?
+      - A atividade física é boa para o coração?
+      - Como os exercícios protegem o coração?
+      - Quais exercícios são melhores para a saúde cardíaca?
+      - A prática de esportes ajuda a prevenir doenças cardíacas?
+      - Como o exercício físico fortalece o coração?
+      - Quanto exercício é necessário para proteger o coração?
+      - A caminhada é boa para o coração?
+      - Como a musculação ajuda o coração?
+      - O exercício físico reduz o risco de infarto?
+      - Como o exercício melhora a circulação sanguínea?
+      - A natação é boa para o coração?
+      - Como o exercício físico controla a pressão arterial?
+      - O exercício ajuda a reduzir o colesterol?
+      - Como o exercício físico previne aterosclerose?
+      - A yoga é boa para o coração?
+      - Como o exercício físico ajuda no controle do diabetes?
+      - O exercício físico melhora a saúde cardiovascular?
+      - Como o exercício físico reduz o estresse e protege o coração?
+      - O exercício físico previne insuficiência cardíaca?
+      - Como o exercício físico ajuda a manter o peso ideal?
+
+  - intent: alcool_seguro_coracao
+    examples: |
+      - Quanto álcool é seguro para o coração?
+      - O consumo de álcool afeta o coração?
+      - Qual é a quantidade segura de álcool para o coração?
+      - Beber moderadamente é bom para o coração?
+      - O álcool pode prejudicar a saúde cardíaca?
+      - Quanto álcool posso beber sem prejudicar o coração?
+      - O consumo excessivo de álcool afeta o coração?
+      - O álcool aumenta o risco de doenças cardíacas?
+      - Beber vinho é bom para o coração?
+      - O álcool pode causar arritmia cardíaca?
+      - O consumo de álcool pode levar a insuficiência cardíaca?
+      - O álcool pode aumentar a pressão arterial?
+      - Beber moderadamente reduz o risco de infarto?
+      - O álcool pode causar cardiomiopatia?
+      - Qual é o limite de álcool para proteger o coração?
+      - O álcool pode causar AVC?
+      - Beber cerveja é ruim para o coração?
+      - O álcool pode causar trombose?
+      - O consumo de álcool pode levar a bloqueios nas artérias?
+      - O álcool pode causar problemas nas válvulas cardíacas?
+      - O álcool pode causar morte súbita?
+
+  - intent: controlar_estresse_proteger_coracao
+    examples: |
+      - Como controlar o estresse para proteger o coração?
+      - O estresse afeta o coração?
+      - Como o estresse pode prejudicar a saúde cardíaca?
+      - Quais são as melhores formas de controlar o estresse?
+      - Como reduzir o estresse para proteger o coração?
+      - O estresse pode causar doenças cardíacas?
+      - Como a meditação ajuda a proteger o coração?
+      - O estresse pode levar a infarto?
+      - Como o yoga ajuda a reduzir o estresse e proteger o coração?
+      - O estresse pode causar arritmia cardíaca?
+      - Como controlar a ansiedade para proteger o coração?
+      - O estresse pode aumentar a pressão arterial?
+      - Como o sono ajuda a controlar o estresse e proteger o coração?
+      - O estresse pode causar insuficiência cardíaca?
+      - Como a respiração profunda ajuda a reduzir o estresse?
+      - O estresse pode causar AVC?
+      - Como hobbies relaxantes ajudam a proteger o coração?
+      - O estresse pode causar trombose?
+      - Como a terapia ajuda a controlar o estresse?
+      - O estresse pode causar bloqueios nas artérias?
+      - Como a atividade física ajuda a controlar o estresse?
