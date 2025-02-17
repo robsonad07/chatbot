@@ -1,14 +1,29 @@
-# Use uma imagem oficial do Rasa
-FROM rasa/rasa:3.6.21
+# Use uma imagem oficial do Ubuntu
+FROM ubuntu:22.04
+
+# Defina o mantenedor
+LABEL maintainer="Seu Nome <seu@email.com>"
+
+# Instale dependências necessárias
+RUN apt-get update && apt-get install -y \
+    python3 \
+    python3-pip \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+# Defina o diretório de trabalho
+WORKDIR /chatbot
 
 # Copie os arquivos do projeto para o container
 COPY . /chatbot
 COPY models /chatbot/models
-WORKDIR /chatbot
 
-# Instale as dependências (caso tenha actions)
-USER root
-RUN pip install --no-cache-dir -r requirements.txt
+# Instale as dependências do projeto
+RUN pip3 install --no-cache-dir -r requirements.txt
+RUN pip3 install rasa
+
+# Exponha a porta usada pelo Rasa
+EXPOSE 5005
 
 # Execute o Rasa no modo servidor
-CMD ["run", "-m", "models", "--enable-api", "--cors", "*"]
+CMD ["rasa", "run", "-m", "models", "--enable-api", "--cors", "*"]
