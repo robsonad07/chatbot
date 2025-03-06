@@ -35,3 +35,6 @@ jobs:
 
       - name: Testar se o Rasa está rodando
         run: curl --retry 10 --retry-delay 5 --max-time 30 http://localhost:5005
+
+      - name: Manter o job ativo
+        run: tail -f /dev/null  
