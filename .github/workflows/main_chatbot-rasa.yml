@@ -12,6 +12,12 @@ jobs:
     steps:
       - name: Checkout do Código
         uses: actions/checkout@v3
+        
+      - name: Configurar Python 3.8
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.8"
+
 
       - name: Atualizar o Sistema e Instalar Dependências
         run: |
