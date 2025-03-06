@@ -1,0 +1,28 @@
+name: Setup Rasa on Azure
+
+on:
+  push:
+    branches:
+      - main  # Ajuste conforme necessário
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do Código
+        uses: actions/checkout@v3
+
+      - name: Atualizar o Sistema e Instalar Dependências
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3 python3-pip git
+
+      - name: Instalar Dependências do Projeto
+        run: |
+          pip3 install --no-cache-dir -r requirements.txt
+          pip3 install rasa
+
+      - name: Iniciar o Rasa
+        run: |
+          rasa run -m models --enable-api --cors "*"
