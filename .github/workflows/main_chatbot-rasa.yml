@@ -28,13 +28,17 @@ jobs:
           pip3 install --no-cache-dir -r requirements.txt
           pip3 install rasa
 
-      - name: Iniciar o Rasa em Segundo Plano
-        run: |
-          rasa run -m models --enable-api --cors "*" &  # Executa em background
-          sleep 30  # Aguarda 10 segundos para garantir que o Rasa iniciou
+      # Login no Azure
+      - name: Login to Azure
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
-      - name: Testar se o Rasa está rodando
-        run: curl --retry 10 --retry-delay 5 --max-time 30 http://localhost:5005
-
-      - name: Manter o job ativo
-        run: tail -f /dev/null  
+      # Deploy para o Azure Web App
+      - name: Deploy to Azure Web App
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: 'chatbot-rasa'  # Nome do Web App
+          slot-name: 'Production'  # Nome do Slot (se for necessário)
