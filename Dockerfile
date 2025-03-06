@@ -1,9 +1,6 @@
 # Use uma imagem oficial do Ubuntu
 FROM ubuntu:22.04
 
-# Defina o mantenedor
-LABEL maintainer="Seu Nome <seu@email.com>"
-
 # Instale dependências necessárias
 RUN apt-get update && apt-get install -y \
     python3 \
