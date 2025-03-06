@@ -18,7 +18,6 @@ jobs:
         with:
           python-version: "3.8"
 
-
       - name: Atualizar o Sistema e Instalar Dependências
         run: |
           sudo apt-get update
@@ -29,6 +28,10 @@ jobs:
           pip3 install --no-cache-dir -r requirements.txt
           pip3 install rasa
 
-      - name: Iniciar o Rasa
+      - name: Iniciar o Rasa em Segundo Plano
         run: |
-          rasa run -m models --enable-api --cors "*"
+          rasa run -m models --enable-api --cors "*" &  # Executa em background
+          sleep 30  # Aguarda 10 segundos para garantir que o Rasa iniciou
+
+      - name: Testar se o Rasa está rodando
+        run: curl --retry 10 --retry-delay 5 --max-time 30 http://localhost:5005
